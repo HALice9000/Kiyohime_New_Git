@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C4256F1B-3DF1-419A-B194-7C3FC3B4FC19}" SchemaVersion="97" RootDocumentID="{906D91A6-CEA5-4EF2-B8F9-63707DDB8D7C}">
+	<AudioObjects>
+		<WorkUnit Name="PLAYER" ID="{C4256F1B-3DF1-419A-B194-7C3FC3B4FC19}" OwnerID="{906D91A6-CEA5-4EF2-B8F9-63707DDB8D7C}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="10"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<ActorMixer Name="Player" ID="{358BA450-E125-4B8C-AC95-EFAD024E573F}" ShortID="338929852">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Player_Attenuation" ID="{C77240BB-D2C1-4759-A284-E3DB5480996E}" WorkUnitID="{4E0912F9-A217-463C-9629-43E794606012}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{269A2FB5-28BD-463C-8903-2746215579E4}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8ADC8F06-A94A-4491-9EB5-E4FEAC0837DC}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Jump" ID="{AE6E1C9F-C779-405A-ACFC-6224846B337D}" ShortID="233547949">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{269A2FB5-28BD-463C-8903-2746215579E4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8ADC8F06-A94A-4491-9EB5-E4FEAC0837DC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Jump" ID="{E0B07080-F1B9-4BFF-B01E-49451BCA6711}">
+									<Language>SFX</Language>
+									<AudioFile>Jump.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="559896856"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Jump" ID="{E0B07080-F1B9-4BFF-B01E-49451BCA6711}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

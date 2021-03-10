@@ -1,0 +1,23 @@
+Event	ID	Name			Wwise Object Path	Notes
+	417627684	PlayMusic			\Default Work Unit\Music\PlayMusic	
+	1305133589	Player_Jump			\Default Work Unit\Player\Player_Jump	
+	2453392179	Player_Footstep			\Default Work Unit\Player\Player_Footstep	
+	2614884498	respirationOn			\Default Work Unit\EXEMPLE\respirationOn	
+	3629196698	Player_Land			\Default Work Unit\Player\Player_Land	
+	4115159560	respirationOff			\Default Work Unit\EXEMPLE\respirationOff	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	485103962	EXEMPLE_CurrLifeInfo			\Default Work Unit\EXEMPLE_CurrLifeInfo	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	1069431850	Player			\Default Work Unit\Master Audio Bus\Player\Player	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	914128518	AnotherReverb			\Default Work Unit\Master Audio Bus\AnotherReverb	
+	1591283508	DefaultReverb			\Default Work Unit\Master Audio Bus\DefaultReverb	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	46342250	Menu_principal_V1	E:\CONTRATS TEMP\Kiyohime\Kiyohime_Git-main\Kiyohime\Kiyohime_WwiseProject\.cache\Windows\SFX\Menu_principal_V1_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Menu_principal_V1\Menu_principal_V1		29191744
+	559896856	Jump	E:\CONTRATS TEMP\Kiyohime\Kiyohime_Git-main\Kiyohime\Kiyohime_WwiseProject\.cache\Windows\SFX\Jump_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\PLAYER\Player\Jump		24508
+

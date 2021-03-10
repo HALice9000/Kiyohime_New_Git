@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{DFF44E01-66B9-4AE4-A968-5C52E1AAABD9}" SchemaVersion="97" RootDocumentID="{48103764-05C7-4434-B71D-EB9039349635}">
+	<Events>
+		<WorkUnit Name="EXEMPLE" ID="{DFF44E01-66B9-4AE4-A968-5C52E1AAABD9}" OwnerID="{48103764-05C7-4434-B71D-EB9039349635}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="respirationOn" ID="{71C946A6-DC06-4E10-87B1-329B835775B9}"/>
+				<Event Name="respirationOff" ID="{FBAFCFF8-51E5-4482-B9B7-487C240936F7}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

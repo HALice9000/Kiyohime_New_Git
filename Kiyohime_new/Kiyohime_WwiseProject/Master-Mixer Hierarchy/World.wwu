@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1C0BC4EE-D715-4A4F-A141-1574614CD634}" SchemaVersion="97" RootDocumentID="{8ADC8F06-A94A-4491-9EB5-E4FEAC0837DC}">
+	<Busses>
+		<WorkUnit Name="World" ID="{1C0BC4EE-D715-4A4F-A141-1574614CD634}" OwnerID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="4"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<WorkUnit Name="Ennemies" ID="{99E04252-E982-4479-BA87-00F90B8F4FAC}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

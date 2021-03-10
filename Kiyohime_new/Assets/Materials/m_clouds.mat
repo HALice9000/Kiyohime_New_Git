@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: m_clouds
+  m_Shader: {fileID: 4800000, guid: 740bbdac6f0a5144ab45834bc232f9b1, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Texture0:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _EdgeLength: 2
+    - _EmPower: 2.35
+    - _Float0: 0.5
+    - _Float1: 4.43
+    - _LateralSpeed: 10
+    - _LengthScale: 2
+    - _NoiseScale: 2.41
+    - _NoiseScale1: 25
+    - _NoiseScale2: 30
+    - _NoiseStep: 0
+    - _OffsetSpeed: 5
+    - _OpacityTweak: 0.73
+    - _OpacityTweak1: 0.57
+    - _RadialScale: 9.65
+    - _Step: 1
+    - _StepEm: 0.07
+    - _StepEm1: 0.44
+    - _StepEm2: 0.77
+    - _StepEm3: 0.72
+    - _StepScale: 0.2
+    - _VertOffPower: 0.2
+    - _VertexDisplacement: 1.33
+    - _Voro1AngleSpeed: 0.1
+    - _Voro1Scale: 5
+    - _Voro2AngleSpeed: 0.2
+    - _Voro2Scale: 10
+    - _VoroAdd: 0.1
+    - _VoroAdd0: 11.49
+    - _VoroAdd1: -0.1
+    - _VoroAdd2: 0.1
+    - _VoroAngle: 0
+    - _VoroAngleSpeed: 0.2
+    - _VoroScale: 2.2
+    - __dirty: 0
+    m_Colors:
+    - _Albedo: {r: 1, g: 0, b: 0, a: 0}
+    - _AlbedoFresnel: {r: 1, g: 0, b: 0, a: 0}
+    - _AlbedoFresnel1: {r: 0.012415428, g: 0.13452482, b: 0.8773585, a: 0}
+    - _BSP: {r: -1, g: 1, b: 1, a: 0}
+    - _BSP1: {r: 0, g: 0, b: 0, a: 0}
+    - _Color0: {r: 0, g: 0, b: 0, a: 1}
+    - _Color1: {r: 0, g: 0, b: 2.5207431, a: 1}
+    - _Color2: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorEm1: {r: 5.278032, g: 0, b: 0, a: 1}
+    - _ColorEm2: {r: 0, g: 0.116336346, b: 1, a: 0}
+    - _ColorEm3: {r: 2.143547, g: 0, b: 0, a: 1}
+    - _Vector0: {r: -0.05, g: -0.3, b: -3, a: 0}
+    - _Vector1: {r: 0, g: 1, b: 1, a: 0}
+    - _ViewDir: {r: 0.96, g: 0, b: 0.04, a: 0}

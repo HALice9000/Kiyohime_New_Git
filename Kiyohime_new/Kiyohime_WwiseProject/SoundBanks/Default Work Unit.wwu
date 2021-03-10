@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4C9532C0-11F0-439A-AB4D-5050C303E10B}" SchemaVersion="97">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{4C9532C0-11F0-439A-AB4D-5050C303E10B}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="AllInOne" ID="{A4FFAEBF-2493-4FFD-8644-6578AFE9325F}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8ADC8F06-A94A-4491-9EB5-E4FEAC0837DC}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Default Work Unit" ID="{48103764-05C7-4434-B71D-EB9039349635}" WorkUnitID="{48103764-05C7-4434-B71D-EB9039349635}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

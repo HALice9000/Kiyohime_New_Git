@@ -1,0 +1,469 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5dfa5c483458054d9297159d9097ab3, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 6ed08a87fc20f942a777f86eda8a4766
+    GuidInternal: 
+    m_lastTime: -8585862091974775808
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 068fdc8a4aa991449eb5e4feac0837dc
+    GuidInternal: 
+    m_lastTime: -8585862033044767874
+    List:
+    - name: AnotherReverb
+      guid: aff40ecd38aeba4abcd715b184120561
+      id: 914128518
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: AnotherReverb
+        ObjectType: 1
+      Path: Default Work Unit\Master Audio Bus\AnotherReverb
+    - name: DefaultReverb
+      guid: 942eeb674902364d94a4429e6c413c26
+      id: 1591283508
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: DefaultReverb
+        ObjectType: 1
+      Path: Default Work Unit\Master Audio Bus\DefaultReverb
+    - name: Master Audio Bus
+      guid: d8a41415a61d2a41a17e75ca0c2149f3
+      id: 3803692087
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      Path: Default Work Unit\Master Audio Bus
+  - PhysicalPath: Master-Mixer Hierarchy\Ennemies.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    - ElementName: Master Audio Bus
+      ObjectType: 2
+    - ElementName: World
+      ObjectType: 12
+    - ElementName: Ennemies
+      ObjectType: 12
+    ParentPath: Default Work Unit\Master Audio Bus\World\Ennemies
+    guid: 5242e09982e97944ba8700f90b8f4fac
+    GuidInternal: 
+    m_lastTime: -8585862091974775808
+    List: []
+  - PhysicalPath: Master-Mixer Hierarchy\Menu.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    - ElementName: Master Audio Bus
+      ObjectType: 2
+    - ElementName: Menu
+      ObjectType: 12
+    ParentPath: Default Work Unit\Master Audio Bus\Menu
+    guid: 237aa5e2e364b14d852fc6ee8a02d074
+    GuidInternal: 
+    m_lastTime: -8585862091974775808
+    List: []
+  - PhysicalPath: Master-Mixer Hierarchy\Music.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    - ElementName: Master Audio Bus
+      ObjectType: 2
+    - ElementName: Music
+      ObjectType: 12
+    ParentPath: Default Work Unit\Master Audio Bus\Music
+    guid: eac210b9cfcd8d42a08c34cc746b25ee
+    GuidInternal: 
+    m_lastTime: -8585862091974775808
+    List: []
+  - PhysicalPath: Master-Mixer Hierarchy\Player.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    - ElementName: Master Audio Bus
+      ObjectType: 2
+    - ElementName: Player
+      ObjectType: 12
+    ParentPath: Default Work Unit\Master Audio Bus\Player
+    guid: 4373a3dc63fa0d4db575478e30d4da8b
+    GuidInternal: 
+    m_lastTime: -8585862091974775808
+    List:
+    - name: Player
+      guid: f44f8b9bb2821341b30913a1af82dad6
+      id: 1069431850
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: Player
+        ObjectType: 12
+      - ElementName: Player
+        ObjectType: 2
+      Path: Default Work Unit\Master Audio Bus\Player\Player
+  - PhysicalPath: Master-Mixer Hierarchy\World.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    - ElementName: Master Audio Bus
+      ObjectType: 2
+    - ElementName: World
+      ObjectType: 12
+    ParentPath: Default Work Unit\Master Audio Bus\World
+    guid: eec40b1c15d74f4aa1411574614cd634
+    GuidInternal: 
+    m_lastTime: -8585862091974775808
+    List: []
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: c032954cf0119a43ab4d5050c303e10b
+    GuidInternal: 
+    m_lastTime: -8585862033044807749
+    List:
+    - name: AllInOne
+      guid: bfaeffa49324fd4f86446578afe9325f
+      id: 2858921253
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: AllInOne
+        ObjectType: 7
+      Path: Default Work Unit\AllInOne
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 64371048c7053444b71deb9039349635
+    GuidInternal: 
+    m_lastTime: -8585862038684798618
+    List: []
+  - PhysicalPath: Events\Ennemies.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    - ElementName: Ennemies
+      ObjectType: 12
+    ParentPath: Default Work Unit\Ennemies
+    guid: 692aa69ad7d75645822eee1b24ff139a
+    GuidInternal: 
+    m_lastTime: -8585862091974775808
+    List: []
+  - PhysicalPath: Events\EXEMPLE.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    - ElementName: EXEMPLE
+      ObjectType: 12
+    ParentPath: Default Work Unit\EXEMPLE
+    guid: 014ef4dfb966e44aa9685c52e1aaabd9
+    GuidInternal: 
+    m_lastTime: -8585862037950621716
+    List:
+    - name: respirationOff
+      guid: f8cfaffbe5518244b9b7487c240936f7
+      id: 4115159560
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: EXEMPLE
+        ObjectType: 12
+      - ElementName: respirationOff
+        ObjectType: 3
+      Path: Default Work Unit\EXEMPLE\respirationOff
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: respirationOn
+      guid: a646c97106dc104e87b1329b835775b9
+      id: 2614884498
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: EXEMPLE
+        ObjectType: 12
+      - ElementName: respirationOn
+        ObjectType: 3
+      Path: Default Work Unit\EXEMPLE\respirationOn
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+  - PhysicalPath: Events\Menu.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    - ElementName: Menu
+      ObjectType: 12
+    ParentPath: Default Work Unit\Menu
+    guid: ab3b3b56beb32f4d97eaf2583c7b3cec
+    GuidInternal: 
+    m_lastTime: -8585862091974775808
+    List: []
+  - PhysicalPath: Events\Music.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    - ElementName: Music
+      ObjectType: 12
+    ParentPath: Default Work Unit\Music
+    guid: db9f5917f1340f44bf68247a2dbdda5b
+    GuidInternal: 
+    m_lastTime: -8585862036319559994
+    List:
+    - name: PlayMusic
+      guid: 83da079c22a90a47b7e03281c6c5f9be
+      id: 417627684
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music
+        ObjectType: 12
+      - ElementName: PlayMusic
+        ObjectType: 3
+      Path: Default Work Unit\Music\PlayMusic
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+  - PhysicalPath: Events\Player.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    - ElementName: Player
+      ObjectType: 12
+    ParentPath: Default Work Unit\Player
+    guid: 33312c8227bf0548a6b192ec9dcad7cf
+    GuidInternal: 
+    m_lastTime: -8585862026465658800
+    List:
+    - name: Player_Footstep
+      guid: 59832c478f2e804b8130d6c732255791
+      id: 2453392179
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Player
+        ObjectType: 12
+      - ElementName: Player_Footstep
+        ObjectType: 3
+      Path: Default Work Unit\Player\Player_Footstep
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Player_Jump
+      guid: 742d81bf10cc6340a3b14bbbdaf44e80
+      id: 1305133589
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Player
+        ObjectType: 12
+      - ElementName: Player_Jump
+        ObjectType: 3
+      Path: Default Work Unit\Player\Player_Jump
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Player_Land
+      guid: 4b8d2fe28c943345ad5da609630ee7c5
+      id: 3629196698
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Player
+        ObjectType: 12
+      - ElementName: Player_Land
+        ObjectType: 3
+      Path: Default Work Unit\Player\Player_Land
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+  - PhysicalPath: Events\World.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    - ElementName: World
+      ObjectType: 12
+    ParentPath: Default Work Unit\World
+    guid: b4eb7543aeacc84fa74a4ff69c791300
+    GuidInternal: 
+    m_lastTime: -8585862091974775808
+    List: []
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: c33429142aaea447a775aa8fc1f46d6a
+    GuidInternal: 
+    m_lastTime: -8585862038684778678
+    List:
+    - name: EXEMPLE_CurrLifeInfo
+      guid: b32b227ddfc56d4b819feae73278c602
+      id: 485103962
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: EXEMPLE_CurrLifeInfo
+        ObjectType: 13
+      Path: Default Work Unit\EXEMPLE_CurrLifeInfo
+  - PhysicalPath: Game Parameters\Menu.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    - ElementName: Menu
+      ObjectType: 12
+    ParentPath: Default Work Unit\Menu
+    guid: a5ffecbf75776240bea01a3a9f784947
+    GuidInternal: 
+    m_lastTime: -8585862091974775808
+    List:
+    - name: Volume_Music
+      guid: a16710046b58224f8310a5927c83a05f
+      id: 3891337659
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Menu
+        ObjectType: 12
+      - ElementName: Volume_Music
+        ObjectType: 13
+      Path: Default Work Unit\Menu\Volume_Music
+    - name: Volume_SFX
+      guid: 68ae6ec886c36a489aebead5f908425d
+      id: 3673881719
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Menu
+        ObjectType: 12
+      - ElementName: Volume_SFX
+        ObjectType: 13
+      Path: Default Work Unit\Menu\Volume_SFX
+    - name: Volume_Voice
+      guid: ee083e334183674499a234e0e520b9e5
+      id: 3676256460
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Menu
+        ObjectType: 12
+      - ElementName: Volume_Voice
+        ObjectType: 13
+      Path: Default Work Unit\Menu\Volume_Voice
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 7b89059c9000fc4d922233e65e6ee3bd
+    GuidInternal: 
+    m_lastTime: -8585862091974775808
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 2b88716f8eb4934fb01db170e44475b3
+    GuidInternal: 
+    m_lastTime: -8585862091974775808
+    List: []
+  - PhysicalPath: Switches\Player.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    - ElementName: Player
+      ObjectType: 12
+    ParentPath: Default Work Unit\Player
+    guid: 7c9a8bfd8c5a60428738c9e796412b47
+    GuidInternal: 
+    m_lastTime: -8585862091974775808
+    List:
+    - name: Player_FootSwitch
+      guid: 78e5dbd77e4ac449a4b6f5a55abcd552
+      id: 2557185337
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Player
+        ObjectType: 12
+      - ElementName: Player_FootSwitch
+        ObjectType: 11
+      Path: Default Work Unit\Player\Player_FootSwitch
+      values:
+      - name: Grass
+        guid: a9af285f08b04f4f971ce5e2f1cafdd8
+        id: 4248645337
+        PathAndIcons:
+        - ElementName: Grass
+          ObjectType: 10
+      - name: Rock
+        guid: c3d4ab8585b08b458073c1b862317fdb
+        id: 2144363834
+        PathAndIcons:
+        - ElementName: Rock
+          ObjectType: 10
+      - name: Water
+        guid: a90e64f24db90744944de11c95c40f7b
+        id: 2654748154
+        PathAndIcons:
+        - ElementName: Water
+          ObjectType: 10
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 563885ec17946a4faa1a96a11a6965c3
+    GuidInternal: 
+    m_lastTime: -8585862091974775808
+    List: []
+  ExpandedItems:
+  - /Kiyohime_WwiseProject
+  - /Kiyohime_WwiseProject/Events
+  - /Kiyohime_WwiseProject/Events/Default Work Unit
+  - /Kiyohime_WwiseProject/Events/Default Work Unit/EXEMPLE
+  - /Kiyohime_WwiseProject/Events/Default Work Unit/Player
+  autoPopulateEnabled: 1
+  CurrentPluginConfig: 

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{48103764-05C7-4434-B71D-EB9039349635}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{48103764-05C7-4434-B71D-EB9039349635}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="Player" ID="{822C3133-BF27-4805-A6B1-92EC9DCAD7CF}" PersistMode="Reference"/>
+				<WorkUnit Name="World" ID="{4375EBB4-ACAE-4FC8-A74A-4FF69C791300}" PersistMode="Reference"/>
+				<WorkUnit Name="Ennemies" ID="{9AA62A69-D7D7-4556-822E-EE1B24FF139A}" PersistMode="Reference"/>
+				<WorkUnit Name="Music" ID="{17599FDB-34F1-440F-BF68-247A2DBDDA5B}" PersistMode="Reference"/>
+				<WorkUnit Name="Menu" ID="{563B3BAB-B3BE-4D2F-97EA-F2583C7B3CEC}" PersistMode="Reference"/>
+				<WorkUnit Name="EXEMPLE" ID="{DFF44E01-66B9-4AE4-A968-5C52E1AAABD9}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

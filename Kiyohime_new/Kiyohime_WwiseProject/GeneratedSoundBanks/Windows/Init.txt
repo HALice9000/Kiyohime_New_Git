@@ -1,0 +1,15 @@
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	485103962	EXEMPLE_CurrLifeInfo			\Default Work Unit\EXEMPLE_CurrLifeInfo	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	1069431850	Player			\Default Work Unit\Master Audio Bus\Player\Player	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	914128518	AnotherReverb			\Default Work Unit\Master Audio Bus\AnotherReverb	
+	1591283508	DefaultReverb			\Default Work Unit\Master Audio Bus\DefaultReverb	
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

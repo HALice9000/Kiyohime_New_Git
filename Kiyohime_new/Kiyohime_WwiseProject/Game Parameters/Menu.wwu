@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{BFECFFA5-7775-4062-BEA0-1A3A9F784947}" SchemaVersion="97" RootDocumentID="{142934C3-AE2A-47A4-A775-AA8FC1F46D6A}">
+	<GameParameters>
+		<WorkUnit Name="Menu" ID="{BFECFFA5-7775-4062-BEA0-1A3A9F784947}" OwnerID="{142934C3-AE2A-47A4-A775-AA8FC1F46D6A}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="12"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<GameParameter Name="Volume_Music" ID="{041067A1-586B-4F22-8310-A5927C83A05F}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Volume_SFX" ID="{C86EAE68-C386-486A-9AEB-EAD5F908425D}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Volume_Voice" ID="{333E08EE-8341-4467-99A2-34E0E520B9E5}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

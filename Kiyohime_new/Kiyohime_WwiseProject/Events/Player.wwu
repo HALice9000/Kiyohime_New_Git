@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{822C3133-BF27-4805-A6B1-92EC9DCAD7CF}" SchemaVersion="97" RootDocumentID="{48103764-05C7-4434-B71D-EB9039349635}">
+	<Events>
+		<WorkUnit Name="Player" ID="{822C3133-BF27-4805-A6B1-92EC9DCAD7CF}" OwnerID="{48103764-05C7-4434-B71D-EB9039349635}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="10"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Event Name="Player_Footstep" ID="{472C8359-2E8F-4B80-8130-D6C732255791}"/>
+				<Event Name="Player_Jump" ID="{BF812D74-CC10-4063-A3B1-4BBBDAF44E80}">
+					<ChildrenList>
+						<Action Name="" ID="{0C5942F8-26E9-4B00-8183-57DDE724A4B6}" ShortID="601522362">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Jump" ID="{AE6E1C9F-C779-405A-ACFC-6224846B337D}" WorkUnitID="{C4256F1B-3DF1-419A-B194-7C3FC3B4FC19}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Player_Land" ID="{E22F8D4B-948C-4533-AD5D-A609630EE7C5}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

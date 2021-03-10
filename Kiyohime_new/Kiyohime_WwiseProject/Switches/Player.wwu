@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{FD8B9A7C-5A8C-4260-8738-C9E796412B47}" SchemaVersion="97" RootDocumentID="{6F71882B-B48E-4F93-B01D-B170E44475B3}">
+	<Switches>
+		<WorkUnit Name="Player" ID="{FD8B9A7C-5A8C-4260-8738-C9E796412B47}" OwnerID="{6F71882B-B48E-4F93-B01D-B170E44475B3}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="10"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<SwitchGroup Name="Player_FootSwitch" ID="{D7DBE578-4A7E-49C4-A4B6-F5A55ABCD552}">
+					<ChildrenList>
+						<Switch Name="Rock" ID="{85ABD4C3-B085-458B-8073-C1B862317FDB}"/>
+						<Switch Name="Grass" ID="{5F28AFA9-B008-4F4F-971C-E5E2F1CAFDD8}"/>
+						<Switch Name="Water" ID="{F2640EA9-B94D-4407-944D-E11C95C40F7B}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

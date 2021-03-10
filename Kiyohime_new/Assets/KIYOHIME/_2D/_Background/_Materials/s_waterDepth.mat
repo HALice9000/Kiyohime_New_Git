@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: s_waterDepth
+  m_Shader: {fileID: 4800000, guid: 1a3ee5f200344bb4ab65b391b3fd9c9e, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Opacity: -65.4
+    - _TransAmbient: 0.2
+    - _TransDirect: 1
+    - _TransNormalDistortion: 0.1
+    - _TransScattering: 2
+    - _TransShadow: 0.9
+    - _Translucency: 1
+    - _VoronoiPower: 50.61
+    - _VoronoiTime: 0.14
+    - __dirty: 0
+    m_Colors:
+    - _Color0: {r: 0.021893905, g: 0.09528092, b: 0.1132075, a: 1}
+    - _Vector0: {r: 13.36, g: 1.15, b: 8.69, a: 0}
+    - _voronoiTile: {r: 1.5, g: 0.1, b: 0, a: 0}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{29E7FDF8-7DCB-476D-A5D7-7FE42898AA62}" SchemaVersion="97">
+	<MixingSessions>
+		<WorkUnit Name="Default Work Unit" ID="{29E7FDF8-7DCB-476D-A5D7-7FE42898AA62}" PersistMode="Standalone">
+			<ChildrenList>
+				<MixingSession Name="SFX" ID="{2640A203-F1BA-483B-8127-E3213B8A5E2B}"/>
+				<MixingSession Name="PLAYER" ID="{595A292D-A385-4CF8-9716-6808412BE49D}"/>
+				<MixingSession Name="MENU" ID="{D485F1C7-927B-4422-9060-FB3F32FFB3C0}"/>
+				<MixingSession Name="MUSIC" ID="{FF973003-2EE1-48B5-ADDB-FCBE18E34EA0}"/>
+				<MixingSession Name="ALL" ID="{437341C8-D042-4C12-85C7-3F08B714739F}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</MixingSessions>
+</WwiseDocument>

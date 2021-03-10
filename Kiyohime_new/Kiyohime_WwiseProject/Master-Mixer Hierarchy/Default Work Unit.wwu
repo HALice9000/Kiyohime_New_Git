@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8ADC8F06-A94A-4491-9EB5-E4FEAC0837DC}" SchemaVersion="97">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{8ADC8F06-A94A-4491-9EB5-E4FEAC0837DC}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<PropertyList>
+						<Property Name="Lowpass" Type="int16">
+							<RTPCList>
+								<RTPC Name="" ID="{320D01FB-50D4-4F59-9B7E-9C42906D4A07}" ShortID="914164474">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="EXEMPLE_CurrLifeInfo" ID="{7D222BB3-C5DF-4B6D-819F-EAE73278C602}" WorkUnitID="{142934C3-AE2A-47A4-A775-AA8FC1F46D6A}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{53CB5317-CB30-4308-8953-B6EFE0084439}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="65537"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>69</YPos>
+												<Flags>5</Flags>
+												<SegmentShape>SCurve</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>1</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="AudioDevice">
+							<ObjectRef Name="System" ID="{A2934ECC-08C5-41B2-AE09-28CA607B971D}" WorkUnitID="{F959C87B-01B8-4089-8E0F-91F129F42C16}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<WorkUnit Name="Player" ID="{DCA37343-FA63-4D0D-B575-478E30D4DA8B}" PersistMode="Reference"/>
+						<WorkUnit Name="World" ID="{1C0BC4EE-D715-4A4F-A141-1574614CD634}" PersistMode="Reference"/>
+						<WorkUnit Name="Music" ID="{B910C2EA-CDCF-428D-A08C-34CC746B25EE}" PersistMode="Reference"/>
+						<WorkUnit Name="Menu" ID="{E2A57A23-64E3-4DB1-852F-C6EE8A02D074}" PersistMode="Reference"/>
+						<AuxBus Name="DefaultReverb" ID="{67EB2E94-0249-4D36-94A4-429E6C413C26}"/>
+						<AuxBus Name="AnotherReverb" ID="{CD0EF4AF-AE38-4ABA-BCD7-15B184120561}"/>
+					</ChildrenList>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>
