@@ -109,5 +109,7 @@ public class s_dialogueSystem : MonoBehaviour
         transform.GetChild(0).GetChild(0).gameObject.SetActive(false);
 
         player.GetComponent<Gamekit2D.PlayerCharacter>().inCinematic = false;
+
+        CinematicsManager.instance.ResumeCinematic();
     }
 }

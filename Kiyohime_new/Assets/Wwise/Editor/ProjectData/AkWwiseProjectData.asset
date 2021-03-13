@@ -20,7 +20,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 6ed08a87fc20f942a777f86eda8a4766
     GuidInternal: 
-    m_lastTime: -8585862091974775808
+    m_lastTime: -8585861901614591204
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -30,7 +30,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 068fdc8a4aa991449eb5e4feac0837dc
     GuidInternal: 
-    m_lastTime: -8585862033044767874
+    m_lastTime: -8585861901617209264
     List:
     - name: AnotherReverb
       guid: aff40ecd38aeba4abcd715b184120561
@@ -76,7 +76,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit\Master Audio Bus\World\Ennemies
     guid: 5242e09982e97944ba8700f90b8f4fac
     GuidInternal: 
-    m_lastTime: -8585862091974775808
+    m_lastTime: -8585861901617209264
     List: []
   - PhysicalPath: Master-Mixer Hierarchy\Menu.wwu
     PathAndIcons:
@@ -89,7 +89,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit\Master Audio Bus\Menu
     guid: 237aa5e2e364b14d852fc6ee8a02d074
     GuidInternal: 
-    m_lastTime: -8585862091974775808
+    m_lastTime: -8585861901617209264
     List: []
   - PhysicalPath: Master-Mixer Hierarchy\Music.wwu
     PathAndIcons:
@@ -102,7 +102,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit\Master Audio Bus\Music
     guid: eac210b9cfcd8d42a08c34cc746b25ee
     GuidInternal: 
-    m_lastTime: -8585862091974775808
+    m_lastTime: -8585861901617209264
     List: []
   - PhysicalPath: Master-Mixer Hierarchy\Player.wwu
     PathAndIcons:
@@ -115,7 +115,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit\Master Audio Bus\Player
     guid: 4373a3dc63fa0d4db575478e30d4da8b
     GuidInternal: 
-    m_lastTime: -8585862091974775808
+    m_lastTime: -8585861901617199291
     List:
     - name: Player
       guid: f44f8b9bb2821341b30913a1af82dad6
@@ -141,7 +141,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit\Master Audio Bus\World
     guid: eec40b1c15d74f4aa1411574614cd634
     GuidInternal: 
-    m_lastTime: -8585862091974775808
+    m_lastTime: -8585861901617199291
     List: []
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
@@ -151,7 +151,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: c032954cf0119a43ab4d5050c303e10b
     GuidInternal: 
-    m_lastTime: -8585862033044807749
+    m_lastTime: -8585861901614601179
     List:
     - name: AllInOne
       guid: bfaeffa49324fd4f86446578afe9325f
@@ -170,7 +170,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 64371048c7053444b71deb9039349635
     GuidInternal: 
-    m_lastTime: -8585862038684798618
+    m_lastTime: -8585861901619652821
     List: []
   - PhysicalPath: Events\Ennemies.wwu
     PathAndIcons:
@@ -181,7 +181,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit\Ennemies
     guid: 692aa69ad7d75645822eee1b24ff139a
     GuidInternal: 
-    m_lastTime: -8585862091974775808
+    m_lastTime: -8585861901619652821
     List: []
   - PhysicalPath: Events\EXEMPLE.wwu
     PathAndIcons:
@@ -192,7 +192,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit\EXEMPLE
     guid: 014ef4dfb966e44aa9685c52e1aaabd9
     GuidInternal: 
-    m_lastTime: -8585862037950621716
+    m_lastTime: -8585861901619652821
     List:
     - name: respirationOff
       guid: f8cfaffbe5518244b9b7487c240936f7
@@ -231,7 +231,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit\Menu
     guid: ab3b3b56beb32f4d97eaf2583c7b3cec
     GuidInternal: 
-    m_lastTime: -8585862091974775808
+    m_lastTime: -8585861901619642844
     List: []
   - PhysicalPath: Events\Music.wwu
     PathAndIcons:
@@ -242,7 +242,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit\Music
     guid: db9f5917f1340f44bf68247a2dbdda5b
     GuidInternal: 
-    m_lastTime: -8585862036319559994
+    m_lastTime: -8585861901619642844
     List:
     - name: PlayMusic
       guid: 83da079c22a90a47b7e03281c6c5f9be
@@ -267,7 +267,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit\Player
     guid: 33312c8227bf0548a6b192ec9dcad7cf
     GuidInternal: 
-    m_lastTime: -8585862026465658800
+    m_lastTime: -8585861901619642844
     List:
     - name: Player_Footstep
       guid: 59832c478f2e804b8130d6c732255791
@@ -320,7 +320,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit\World
     guid: b4eb7543aeacc84fa74a4ff69c791300
     GuidInternal: 
-    m_lastTime: -8585862091974775808
+    m_lastTime: -8585861901619632883
     List: []
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
@@ -330,7 +330,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: c33429142aaea447a775aa8fc1f46d6a
     GuidInternal: 
-    m_lastTime: -8585862038684778678
+    m_lastTime: -8585861901619622908
     List:
     - name: EXEMPLE_CurrLifeInfo
       guid: b32b227ddfc56d4b819feae73278c602
@@ -350,7 +350,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit\Menu
     guid: a5ffecbf75776240bea01a3a9f784947
     GuidInternal: 
-    m_lastTime: -8585862091974775808
+    m_lastTime: -8585861901619622908
     List:
     - name: Volume_Music
       guid: a16710046b58224f8310a5927c83a05f
@@ -393,7 +393,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 7b89059c9000fc4d922233e65e6ee3bd
     GuidInternal: 
-    m_lastTime: -8585862091974775808
+    m_lastTime: -8585861901614601179
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
@@ -403,7 +403,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 2b88716f8eb4934fb01db170e44475b3
     GuidInternal: 
-    m_lastTime: -8585862091974775808
+    m_lastTime: -8585861901614601179
     List: []
   - PhysicalPath: Switches\Player.wwu
     PathAndIcons:
@@ -414,7 +414,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit\Player
     guid: 7c9a8bfd8c5a60428738c9e796412b47
     GuidInternal: 
-    m_lastTime: -8585862091974775808
+    m_lastTime: -8585861901614591204
     List:
     - name: Player_FootSwitch
       guid: 78e5dbd77e4ac449a4b6f5a55abcd552
@@ -457,7 +457,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 563885ec17946a4faa1a96a11a6965c3
     GuidInternal: 
-    m_lastTime: -8585862091974775808
+    m_lastTime: -8585861901614591204
     List: []
   ExpandedItems:
   - /Kiyohime_WwiseProject

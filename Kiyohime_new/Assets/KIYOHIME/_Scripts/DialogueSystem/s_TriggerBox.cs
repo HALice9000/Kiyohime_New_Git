@@ -7,6 +7,7 @@ public class s_TriggerBox : MonoBehaviour
     public s_dialogue dialogue;
     [SerializeField] private s_dialogueSystem ds;
     bool isTrigger = false;
+    public bool noCinematic = false;
 
     // Start is called before the first frame update
     void Start()
@@ -26,11 +27,20 @@ public class s_TriggerBox : MonoBehaviour
         }
     }
 
+    public void LaunchThisDialogue()
+    {
+        ds.StartDialogue(dialogue);
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Player")
         {
-            ds.StartDialogue(dialogue);
+            CinematicsManager.instance.ResumeCinematic();
+
+            if (noCinematic == true)
+                LaunchThisDialogue();
+
             isTrigger = true;
             collision.gameObject.GetComponent<Gamekit2D.PlayerCharacter>().inCinematic = true;
         }
