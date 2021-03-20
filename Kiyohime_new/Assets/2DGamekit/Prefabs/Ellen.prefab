@@ -335,7 +335,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeecda2baef25704c8fe802e627e9f27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inputType: 0
+  inputType: 1
   Pause:
     key: 27
     controllerButton: 8
@@ -379,6 +379,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49de84fa3d321d245bc900e599de015f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  inCinematic: 0
   spriteRenderer: {fileID: 212611162554739646}
   damageable: {fileID: 114774311958850474}
   meleeDamager: {fileID: 114460243114916098}
