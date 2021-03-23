@@ -55,6 +55,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Texture0:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -70,14 +74,14 @@ Material:
     - _CameraFarFadeDistance: 2
     - _CameraNearFadeDistance: 1
     - _ColorMode: 4
-    - _Cull: 2
-    - _Cutoff: 0.5
+    - _Cull: 0
+    - _Cutoff: 0
     - _DetailNormalMapScale: 1
     - _DistortionBlend: 0.5
     - _DistortionEnabled: 0
     - _DistortionStrength: 1
     - _DistortionStrengthScaled: 0
-    - _DstBlend: 1
+    - _DstBlend: 10
     - _EdgeLength: 2
     - _EmPower: 2.35
     - _EmissionEnabled: 0
@@ -93,7 +97,7 @@ Material:
     - _LengthScale: 2
     - _LightingEnabled: 0
     - _Metallic: 0
-    - _Mode: 4
+    - _Mode: 2
     - _NoiseScale: 0.59
     - _NoiseScale1: 25
     - _NoiseScale2: 30
@@ -139,7 +143,7 @@ Material:
     - _BSP: {r: -0.82, g: 1.13, b: -7.13, a: 0}
     - _BSP1: {r: 0, g: 0, b: 0, a: 0}
     - _CameraFadeParams: {r: 0, g: Infinity, b: 0, a: 0}
-    - _Color: {r: 1, g: 1, b: 1, a: 0.5686275}
+    - _Color: {r: 2.6390157, g: 2.6390157, b: 2.6390157, a: 0.5686275}
     - _Color0: {r: 0.0007314645, g: 0.0007314645, b: 0.0007314645, a: 1}
     - _Color1: {r: 0, g: 0, b: 2.5207431, a: 1}
     - _Color2: {r: 1, g: 1, b: 1, a: 1}
