@@ -134,7 +134,7 @@ Material:
     - _Translucency: 1
     - _UVSec: 0
     - _ZWrite: 0
-    - __dirty: 1
+    - __dirty: 0
     - _almostGreen: 1.4
     - _step: 0.25
     - _timeMult: 2
