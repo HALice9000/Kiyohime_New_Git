@@ -4,39 +4,89 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
+[System.Serializable]
+public class CharacterIdentity
+{
+    public GameObject[] charactersPics;
+    public string[] characterName;
+    public string[] characterTitle;
+}
+
 public class s_dialogueSystem : MonoBehaviour
 {
+    public CharacterIdentity characterID;
+
     public Queue<string> sentences;
-    public Queue<string> names;
+
     [SerializeField] private TMP_Text _speakerName;
+    [SerializeField] private TMP_Text _speakerTitle;
     [SerializeField] private TMP_Text _speakerText;
+    [SerializeField] private float delayBeforeDial = 2.5f;
 
     GameObject player;
+    GameObject dialogueBox;
 
     int picNum = 0;
 
-    s_dialogue d = null;
-
-    public GameObject[] charactersPics;
     int[] charaIndex;
+
+    bool playerIsFree = true;
+    bool dialogueStarted = false;
 
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
         sentences = new Queue<string>();
-        names = new Queue<string>();
+        dialogueBox = transform.GetChild(0).GetChild(0).gameObject;
+    }
+
+    private void Update()
+    {
+        if (dialogueBox.activeInHierarchy && dialogueStarted)
+        {
+            CanUseInputs();
+        }
+    }
+
+    private void CanUseInputs()
+    {
+        if (Input.GetKeyDown(KeyCode.F))
+        {
+            DisplayNextSentence();
+        }
+    }
+
+    public void SetPlayerStatic(bool isStatic)
+    {
+        player.GetComponent<Gamekit2D.PlayerCharacter>().inCinematic = isStatic;
+    }
+
+    private void EnqueueCharacterInfos(s_dialogue dialogue)
+    {
+        foreach (var sentence in dialogue.sentences)
+        {
+            sentences.Enqueue(sentence);
+        }
+    }
+
+    private void DequeueCharacterInfos()
+    {
+        string sentence = sentences.Dequeue();
+        _speakerText.text = sentence;
     }
 
     public void StartDialogue(s_dialogue dialogue)
     {
-        transform.GetChild(0).GetChild(0).gameObject.SetActive(true);
+        StartCoroutine(EnumDelayDial(delayBeforeDial, dialogue));
+    }
+
+    private void ResumeDialogue(s_dialogue dialogue)
+    {
+        SetPlayerStatic(true);
+        dialogueBox.SetActive(true);
+        picNum = 0;
 
         sentences.Clear();
-        names.Clear();
-        d = null;
-
-        picNum = 0;
-        d = dialogue;
 
         charaIndex = new int[dialogue.names.Length];
 
@@ -50,7 +100,7 @@ public class s_dialogueSystem : MonoBehaviour
                 case "Kiyohime":
                     charaIndex[i] = 1;
                     break;
-                case "Suiko le BossKappa":
+                case "Suiko":
                     charaIndex[i] = 2;
                     break;
                 case "Yamata-no-Orochi":
@@ -59,37 +109,40 @@ public class s_dialogueSystem : MonoBehaviour
                 default:
                     break;
             }
-            //Debug.Log(charaIndex[i].ToString() + " " + dialogue.names[i].ToString());
         }
-        //charactersPics[charaIndex[picNum]].SetActive(true);
 
-        //_speakerName.text = dialogue.name[0];
-
-        foreach (var sentence in dialogue.sentences)
-        {
-            sentences.Enqueue(sentence);
-        }
-        foreach (var name in dialogue.names)
-        {
-            names.Enqueue(name);
-        }
+        EnqueueCharacterInfos(dialogue);
+        SetIfPlayerIsFreeAtEnd(dialogue);
 
         DisplayNextSentence();
+        dialogueStarted = true;
     }
 
-    public void DisplayNextSentence()
+    private void SetIfPlayerIsFreeAtEnd(s_dialogue dialogue)
     {
+        playerIsFree = dialogue.playerFreeAtEnd;
+    }
 
-        foreach (GameObject picObj in charactersPics)
+    private void SetSpeackerInfos()
+    {
+        foreach (GameObject picObj in characterID.charactersPics)
         {
             picObj.SetActive(false);
         }
 
         if (picNum < charaIndex.Length)
         {
-            charactersPics[charaIndex[picNum]].SetActive(true);
+            characterID.charactersPics[charaIndex[picNum]].SetActive(true);
+            _speakerName.text = characterID.characterName[charaIndex[picNum]];
+            _speakerTitle.text = characterID.characterTitle[charaIndex[picNum]];
+
             picNum++;
         }
+    }
+
+    public void DisplayNextSentence()
+    {
+        SetSpeackerInfos();
 
         if (sentences.Count == 0)
         {
@@ -97,19 +150,23 @@ public class s_dialogueSystem : MonoBehaviour
             return;
         }
 
-        string sentence = sentences.Dequeue();
-        _speakerText.text = sentence;
-
-        string name = names.Dequeue();
-        _speakerName.text = name;
+        DequeueCharacterInfos();
     }
 
     private void EndDialogue()
     {
         transform.GetChild(0).GetChild(0).gameObject.SetActive(false);
 
-        player.GetComponent<Gamekit2D.PlayerCharacter>().inCinematic = false;
-
         CinematicsManager.instance.ResumeCinematic();
+
+        if (playerIsFree)
+            SetPlayerStatic(false);
+    }
+
+    private IEnumerator EnumDelayDial(float delay, s_dialogue dialogue)
+    {
+        yield return new WaitForSeconds(delay);
+
+        ResumeDialogue(dialogue);
     }
 }

@@ -9,4 +9,5 @@ public class s_dialogue
 
     [TextArea(5, 10)]
     public string[] sentences;
+    public bool playerFreeAtEnd = true;
 }
