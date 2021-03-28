@@ -508,11 +508,11 @@ MonoBehaviour:
     m_Recordable: 0
     m_PostExtrapolationMode: 1
     m_PreExtrapolationMode: 1
-    m_PostExtrapolationTime: 18.549999999999997
+    m_PostExtrapolationTime: 15.816666666666665
     m_PreExtrapolationTime: 10.25
     m_DisplayName: AnchinDisapear
   - m_Version: 1
-    m_Start: 31.683333333333334
+    m_Start: 28.95
     m_ClipIn: 0.6166666666666991
     m_Asset: {fileID: 9183396034301959052}
     m_Duration: 2.7333333333333023
@@ -622,6 +622,22 @@ MonoBehaviour:
   m_Loop: 2
   m_Version: 1
   m_Rotation: {x: 0, y: 0, z: 0, w: 1}
+--- !u!114 &-5441663150253641228
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15c38f6fa1940124db1ab7f6fe7268d1, type: 3}
+  m_Name: Signal Emitter
+  m_EditorClassIdentifier: 
+  m_Time: 19.683333333333334
+  m_Retroactive: 0
+  m_EmitOnce: 0
+  m_Asset: {fileID: 11400000, guid: 02a7c3d5dc8b6c64abaa9084ebb275d0, type: 2}
 --- !u!114 &-4887287153665859962
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -836,6 +852,22 @@ MonoBehaviour:
   m_Loop: 2
   m_Version: 1
   m_Rotation: {x: 0, y: 0, z: 0, w: 1}
+--- !u!114 &-3399171517998641658
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15c38f6fa1940124db1ab7f6fe7268d1, type: 3}
+  m_Name: Signal Emitter
+  m_EditorClassIdentifier: 
+  m_Time: 32.25
+  m_Retroactive: 0
+  m_EmitOnce: 1
+  m_Asset: {fileID: 11400000, guid: 79c4bcde66652644ab42ff973834b1d5, type: 2}
 --- !u!114 &-3103332049232455392
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1239,6 +1271,22 @@ MonoBehaviour:
   VirtualCamera:
     exposedName: 83b61b1df6dda0540be2959a233ccae3
     defaultValue: {fileID: 0}
+--- !u!114 &-444625493358196251
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15c38f6fa1940124db1ab7f6fe7268d1, type: 3}
+  m_Name: Signal Emitter
+  m_EditorClassIdentifier: 
+  m_Time: 28.95
+  m_Retroactive: 0
+  m_EmitOnce: 0
+  m_Asset: {fileID: 11400000, guid: eccb519ecc0b08a45ba3bd3883eb4df3, type: 2}
 --- !u!114 &-195504076663070509
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1251,7 +1299,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15c38f6fa1940124db1ab7f6fe7268d1, type: 3}
   m_Name: Signal Emitter
   m_EditorClassIdentifier: 
-  m_Time: 19.683333333333334
+  m_Time: 20.166666666666668
   m_Retroactive: 0
   m_EmitOnce: 0
   m_Asset: {fileID: 11400000, guid: eccb519ecc0b08a45ba3bd3883eb4df3, type: 2}
@@ -1378,7 +1426,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15c38f6fa1940124db1ab7f6fe7268d1, type: 3}
   m_Name: Signal Emitter
   m_EditorClassIdentifier: 
-  m_Time: 25.716666666666697
+  m_Time: 26.766666666666666
   m_Retroactive: 0
   m_EmitOnce: 0
   m_Asset: {fileID: 11400000, guid: 02a7c3d5dc8b6c64abaa9084ebb275d0, type: 2}
@@ -1394,10 +1442,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15c38f6fa1940124db1ab7f6fe7268d1, type: 3}
   m_Name: Signal Emitter
   m_EditorClassIdentifier: 
-  m_Time: 31.683333333333334
+  m_Time: 28.95
   m_Retroactive: 0
   m_EmitOnce: 1
-  m_Asset: {fileID: 11400000, guid: eccb519ecc0b08a45ba3bd3883eb4df3, type: 2}
+  m_Asset: {fileID: 11400000, guid: 8099f84691aaaa84195e5f2400728569, type: 2}
 --- !u!114 &2153789901599656571
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1410,7 +1458,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15c38f6fa1940124db1ab7f6fe7268d1, type: 3}
   m_Name: Signal Emitter
   m_EditorClassIdentifier: 
-  m_Time: 19.683333333333334
+  m_Time: 15.966666666666667
   m_Retroactive: 0
   m_EmitOnce: 0
   m_Asset: {fileID: 11400000, guid: 05ea4c2cfcf198949a900a710f3c679b, type: 2}
@@ -1784,16 +1832,16 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: CM vcam2(Anchin1Cinema)
   - m_Version: 1
-    m_Start: 19.683333333333334
+    m_Start: 20.366666666666667
     m_ClipIn: 0
     m_Asset: {fileID: -8463625048263655295}
-    m_Duration: 7.449999999999999
+    m_Duration: 6.399999999999999
     m_TimeScale: 1
     m_ParentTrack: {fileID: 6316402691387277566}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
-    m_BlendInDuration: 1.6833333333333336
-    m_BlendOutDuration: 1.4166666666666359
+    m_BlendInDuration: 1
+    m_BlendOutDuration: 1.0499999999999687
     m_MixInCurve:
       serializedVersion: 2
       m_Curve: []
@@ -1853,13 +1901,13 @@ MonoBehaviour:
     m_Start: 25.716666666666697
     m_ClipIn: 0
     m_Asset: {fileID: 5831088495058651784}
-    m_Duration: 5.966666666666637
+    m_Duration: 3.2333333333333023
     m_TimeScale: 1
     m_ParentTrack: {fileID: 6316402691387277566}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
-    m_BlendInDuration: 1.4166666666666359
-    m_BlendOutDuration: 1.7166666666666686
+    m_BlendInDuration: 1.0499999999999687
+    m_BlendOutDuration: 0.9333333333333336
     m_MixInCurve:
       serializedVersion: 2
       m_Curve: []
@@ -1895,13 +1943,49 @@ MonoBehaviour:
     m_BlendOutDuration: 1.1999999999999993
     m_MixInCurve:
       serializedVersion: 2
-      m_Curve: []
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
     m_MixOutCurve:
       serializedVersion: 2
-      m_Curve: []
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -1991,7 +2075,7 @@ MonoBehaviour:
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
     m_BlendInDuration: 1.1333333333333329
-    m_BlendOutDuration: 1.6833333333333336
+    m_BlendOutDuration: 1
     m_MixInCurve:
       serializedVersion: 2
       m_Curve: []
@@ -2015,15 +2099,15 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: CM vcam1(onPlayer)
   - m_Version: 1
-    m_Start: 29.966666666666665
+    m_Start: 28.016666666666666
     m_ClipIn: 0
     m_Asset: {fileID: 7348623754996777136}
-    m_Duration: 6.433333333333334
+    m_Duration: 8.383333333333333
     m_TimeScale: 1
     m_ParentTrack: {fileID: 6316402691387277566}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
-    m_BlendInDuration: 1.7166666666666686
+    m_BlendInDuration: 0.9333333333333336
     m_BlendOutDuration: -1
     m_MixInCurve:
       serializedVersion: 2
@@ -2105,6 +2189,22 @@ MonoBehaviour:
   VirtualCamera:
     exposedName: 08d2e2eb117727d4aa01eddf962d04ce
     defaultValue: {fileID: 0}
+--- !u!114 &6839551696422182664
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15c38f6fa1940124db1ab7f6fe7268d1, type: 3}
+  m_Name: Signal Emitter
+  m_EditorClassIdentifier: 
+  m_Time: 20.366666666666667
+  m_Retroactive: 0
+  m_EmitOnce: 0
+  m_Asset: {fileID: 11400000, guid: 05ea4c2cfcf198949a900a710f3c679b, type: 2}
 --- !u!114 &6862291162740903805
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2146,7 +2246,7 @@ MonoBehaviour:
     m_Start: 19.683333333333334
     m_ClipIn: 0
     m_Asset: {fileID: -8560012917527435508}
-    m_Duration: 14.733333333333302
+    m_Duration: 11.999999999999968
     m_TimeScale: 1
     m_ParentTrack: {fileID: 7141387363210632195}
     m_EaseInDuration: 0
@@ -2250,6 +2350,10 @@ MonoBehaviour:
     - {fileID: 942714983896712248}
     - {fileID: 2153789901599656571}
     - {fileID: -7992140803225256245}
+    - {fileID: -5441663150253641228}
+    - {fileID: 6839551696422182664}
+    - {fileID: -3399171517998641658}
+    - {fileID: -444625493358196251}
 --- !u!114 &7348623754996777136
 MonoBehaviour:
   m_ObjectHideFlags: 1

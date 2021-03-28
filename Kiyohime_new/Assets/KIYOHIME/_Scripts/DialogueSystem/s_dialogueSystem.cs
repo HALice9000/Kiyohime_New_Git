@@ -54,6 +54,10 @@ public class s_dialogueSystem : MonoBehaviour
         {
             DisplayNextSentence();
         }
+        if (Input.GetButtonDown("B"))
+        {
+            DisplayNextSentence();
+        }
     }
 
     public void SetPlayerStatic(bool isStatic)
