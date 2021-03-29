@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/KIYOHIME/_Scenes/LD_01.unity
     guid: 232249d91f58c9641967faed374813b0
+  - enabled: 1
+    path: Assets/NewScene.unity
+    guid: e2f5262d7055561459d13e8223cd04e6
   m_configObjects: {}
