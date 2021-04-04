@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: m_Little_Cascade
+  m_Shader: {fileID: 4800000, guid: 17fb7265e37252548a849de71a3c0fbd, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _TextureSample0:
+        m_Texture: {fileID: 2800000, guid: a204ab092daef50448efeb699911744d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BorderForce: -48.88
+    - _BorderVoronoi: 1.7
+    - _Divvertex: -0.8
+    - _EdgeLength: 15
+    - _HighWaves: 10
+    - _HighWavesForce: 0.09
+    - _HighWavesForce2: 0.21
+    - _HighWavesVoronoi: 3.63
+    - _HighWavesVoronoi2: 1
+    - _LittleWavesForce: 1
+    - _POWA: 0
+    - _TextureForce: 9.53
+    - _VoroScale: 3
+    - _WarterFallSpeed: 0.1
+    - _WarterFallSpeed1: 2
+    - _WarterFallSpeed2: 0.3
+    - _WarterFallSpeed3: 0.25
+    - _WaveOndulatingSpeed: 2
+    - __dirty: 0
+    - _lerpvertex: 0.03
+    - _transparency: 0.27
+    m_Colors:
+    - _Color0: {r: 0, g: 5.896947, b: 25.992073, a: 1}
+    - _FRESNEL: {r: 1, g: 100, b: 10, a: 0}
+    - _Fall2Tiling: {r: 7.16, g: 1.63, b: 0, a: 0}
+    - _FallBorder: {r: 50, g: 1.1, b: 0, a: 0}
+    - _LittleWater: {r: 0, g: 0.41509432, b: 0.41509432, a: 1}
+    - _LittleWater1: {r: 0.57735026, g: 0.57735026, b: 0.57735026, a: 1}
+    - _LittleWave: {r: 0.1, g: 0.08, b: 0, a: 0}
+    - _MinMinMaxMax: {r: 100, g: 50, b: 107.7, a: 100}
+    - _Steps: {r: 0.45, g: 0.24, b: 0, a: 0}
+    - _Steps2: {r: 0.7, g: 0.31, b: 0, a: 0}
+    - _StepsBorder: {r: 0.24, g: 1, b: 0, a: 0}
+    - _TextureScale: {r: 1, g: 1, b: 0, a: 0}
+    - _TextureScaling: {r: 0.05, g: 0.06, b: 0, a: 0}
+    - _WaterBorder: {r: 0.3962264, g: 0.3962264, b: 0.3962264, a: 1}
+    - _WaterFallColor: {r: 0.29803923, g: 0.6901961, b: 0.43529415, a: 1}
