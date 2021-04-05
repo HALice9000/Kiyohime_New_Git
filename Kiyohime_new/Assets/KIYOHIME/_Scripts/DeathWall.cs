@@ -15,6 +15,7 @@ public class DeathWall : MonoBehaviour
     Transform actualCheck;
 
     public bool _moving = false;
+    public GameObject crew;
 
     void Start()
     {
@@ -101,6 +102,7 @@ public class DeathWall : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             _moving = true;
+            crew.SetActive(true);
         }
     }
 }
