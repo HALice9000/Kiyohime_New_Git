@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: M_CosmicSmoke
-  m_Shader: {fileID: 4800000, guid: 8666f20837fa801458159b2d2f8c8458, type: 3}
+  m_Shader: {fileID: 4800000, guid: 12c9f051eea9e674289324fa1fc8f5aa, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 0
   m_EnableInstancingVariants: 1
@@ -32,19 +32,22 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _BorderSpeed: 1.01
-    - _PaternPower: 2.5
-    - _StarsSpeedRatio: 20.31
-    - _StepOutter: 2.84
+    - _BorderSpeed: 0.2
+    - _PaternPower: 0.73
+    - _PaternSpeedStep: 0.13
+    - _StarsSpeedRatio: 3.3
+    - _StepOutter: 2.07
     - _TextureSat: 0.1
-    - _TextureStrength: 0
-    - _VoroBorderScale: 0.1
-    - _VoroPaternScale: -0.02
+    - _TextureStrength: 0.67
+    - _VoroBorderScale: 0.32
+    - _VoroPaternScale: 0.04
+    - _WorldImpactance: 0.96
     - __dirty: 0
+    - _smoothStep: 2.4
     m_Colors:
     - _Color0: {r: 1, g: 1, b: 1, a: 1}
-    - _Color1: {r: 0, g: 0, b: 0, a: 1}
-    - _ColorSteps: {r: 3, g: 0.1, b: 0, a: 0}
-    - _OpacityFromPatern: {r: 2.07, g: 3.85, b: 0, a: 0}
-    - _StepInner: {r: 0, g: 0.39, b: 0, a: 0}
+    - _Color1: {r: 0.7490196, g: 0.7490196, b: 0.7490196, a: 1}
+    - _ColorSteps: {r: 2.67, g: 2.24, b: 0, a: 0}
+    - _OpacityFromPatern: {r: 0.69, g: 1.14, b: 0, a: 0}
+    - _StepInner: {r: 0.6, g: 1.21, b: 0, a: 0}
     - _TextureTiling: {r: 1, g: 1, b: 0, a: 0}
