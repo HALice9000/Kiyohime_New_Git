@@ -68,12 +68,17 @@ Material:
     - _AlbedoFresnel1: {r: 0.012415428, g: 0.13452482, b: 0.8773585, a: 0}
     - _BSP: {r: -1, g: 1, b: 1, a: 0}
     - _BSP1: {r: 0, g: 0, b: 0, a: 0}
+    - _CloudSpeed: {r: -0.1, g: 0.02, b: 0, a: 0}
+    - _CloudSpeed1: {r: 0.47, g: 0.02, b: 0, a: 0}
+    - _CloudSpeed2: {r: 0.36, g: 0.002, b: 0, a: 0}
     - _Color0: {r: 0, g: 0, b: 0, a: 1}
-    - _Color1: {r: 0, g: 0, b: 2.5207431, a: 1}
-    - _Color2: {r: 1, g: 1, b: 1, a: 1}
+    - _Color1: {r: 0.29245272, g: 0.045523256, b: 0.045523256, a: 0}
+    - _Color2: {r: 0.9245283, g: 0.21510759, b: 0, a: 0}
     - _ColorEm1: {r: 5.278032, g: 0, b: 0, a: 1}
     - _ColorEm2: {r: 0, g: 0.116336346, b: 1, a: 0}
     - _ColorEm3: {r: 2.143547, g: 0, b: 0, a: 1}
+    - _NoiseScale1: {r: 32.4, g: 5.3, b: 0, a: 0}
+    - _NoiseScale2: {r: 32.17, g: 6.3, b: 0, a: 0}
     - _Vector0: {r: -0.05, g: -0.3, b: -3, a: 0}
     - _Vector1: {r: 0, g: 1, b: 1, a: 0}
     - _ViewDir: {r: 0.96, g: 0, b: 0.04, a: 0}

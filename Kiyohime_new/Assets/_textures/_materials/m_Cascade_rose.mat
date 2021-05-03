@@ -38,6 +38,7 @@ Material:
     - _HighWavesVoronoi: 3.63
     - _HighWavesVoronoi2: 1
     - _LittleWavesForce: 1
+    - _OpacityBias: 5.3
     - _POWA: 0
     - _TextureForce: 9.53
     - _VoroScale: 3
@@ -58,6 +59,9 @@ Material:
     - _LittleWater1: {r: 0.57735026, g: 0.57735026, b: 0.57735026, a: 1}
     - _LittleWave: {r: 0.1, g: 0.08, b: 0, a: 0}
     - _MinMinMaxMax: {r: 100, g: 50, b: 107.7, a: 100}
+    - _PositionA: {r: 6, g: 29.5, b: 0, a: 0}
+    - _PositionB: {r: 3.6, g: 61.26, b: 0, a: 0}
+    - _ShadowTint: {r: 0, g: 0, b: 0, a: 0}
     - _Steps: {r: 0.45, g: 0.24, b: 0, a: 0}
     - _Steps2: {r: 0.7, g: 0.31, b: 0, a: 0}
     - _StepsBorder: {r: 0.24, g: 1, b: 0, a: 0}
