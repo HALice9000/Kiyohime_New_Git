@@ -69,8 +69,8 @@ Material:
     - _BSP: {r: -1, g: 1, b: 1, a: 0}
     - _BSP1: {r: 0, g: 0, b: 0, a: 0}
     - _CloudSpeed: {r: -0.1, g: 0.02, b: 0, a: 0}
-    - _CloudSpeed1: {r: 0.47, g: 0.02, b: 0, a: 0}
-    - _CloudSpeed2: {r: 0.36, g: 0.002, b: 0, a: 0}
+    - _CloudSpeed1: {r: 0.1, g: 0.01, b: 0, a: 0}
+    - _CloudSpeed2: {r: 0.2, g: 0.002, b: 0, a: 0}
     - _Color0: {r: 0, g: 0, b: 0, a: 1}
     - _Color1: {r: 0.29245272, g: 0.045523256, b: 0.045523256, a: 0}
     - _Color2: {r: 0.9245283, g: 0.21510759, b: 0, a: 0}
