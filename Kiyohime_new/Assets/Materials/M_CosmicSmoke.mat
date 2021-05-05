@@ -36,11 +36,11 @@ Material:
     - _PaternPower: 0.73
     - _PaternSpeedStep: 0.13
     - _StarsSpeedRatio: 3.3
-    - _StepOutter: 2.07
+    - _StepOutter: 2.68
     - _TextureSat: 0.1
     - _TextureStrength: 0.67
-    - _VoroBorderScale: 0.32
-    - _VoroPaternScale: 0.04
+    - _VoroBorderScale: 0.11
+    - _VoroPaternScale: 0.17
     - _WorldImpactance: 0.96
     - __dirty: 0
     - _smoothStep: 2.4
