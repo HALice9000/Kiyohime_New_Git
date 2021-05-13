@@ -6,6 +6,105 @@
 				<Property Name="Color" Type="int16" Value="4"/>
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
+			<ChildrenList>
+				<Event Name="Play_Ambient" ID="{9970D7C9-8D80-4DC6-ADFC-B306E1FECF5C}">
+					<ChildrenList>
+						<Action Name="" ID="{AF543B20-4C0E-4A97-A3C3-1F9586D73C40}" ShortID="661363210">
+							<PropertyList>
+								<Property Name="FadeInCurve" Type="int16" Value="5"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambient" ID="{1E66E3EC-A641-4C89-AE98-9E8F5BC94874}" WorkUnitID="{4685A0A2-4031-463E-BBD3-A6242DFA6835}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Ambient" ID="{216CEAC0-E4C8-4C13-86FD-836C1C170ABE}">
+					<ChildrenList>
+						<Action Name="" ID="{C694863D-6777-4C4E-99E4-D5A3BF050357}" ShortID="568543181">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="5"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambient" ID="{1E66E3EC-A641-4C89-AE98-9E8F5BC94874}" WorkUnitID="{4685A0A2-4031-463E-BBD3-A6242DFA6835}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Waterfall_0" ID="{AA357043-C43E-4507-A696-C2686789A9FC}">
+					<ChildrenList>
+						<Action Name="" ID="{9D9AAFC9-D36E-42F9-930A-773A52217B21}" ShortID="505126612">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Forest Medium Waterfall Loop 1" ID="{BBB374D8-5EE0-43EC-8F85-3C115C7952B3}" WorkUnitID="{4685A0A2-4031-463E-BBD3-A6242DFA6835}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Waterfall_1" ID="{4D547DCE-E235-4CFA-95AC-7FADDA0325D6}">
+					<ChildrenList>
+						<Action Name="" ID="{D8C20B25-4F02-4E3A-9B65-4743DC4029B0}" ShortID="512772900">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Forest Medium Waterfall Loop 2" ID="{8943814C-FF13-468D-AC9D-26864E7749F0}" WorkUnitID="{4685A0A2-4031-463E-BBD3-A6242DFA6835}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Waterfall_2" ID="{1C160256-3351-4CA2-98C7-E90018EA26E6}">
+					<ChildrenList>
+						<Action Name="" ID="{28969ABF-26A5-402A-B18C-07F1AD0BEE02}" ShortID="1016140572">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Forest Medium Waterfall Loop 3" ID="{55AD0D5A-AB77-41E6-AC3D-C60FA335B6DC}" WorkUnitID="{4685A0A2-4031-463E-BBD3-A6242DFA6835}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Door_Open" ID="{3BFB445B-ACA2-4844-B717-60D47D7375E0}">
+					<ChildrenList>
+						<Action Name="" ID="{BBA0DF47-8A7B-4EB6-B3EB-BF3B9C09FA4F}" ShortID="526675026">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="porte_ouverture" ID="{F96F5ADA-A69A-4A2B-A7F4-DAB66D2B210E}" WorkUnitID="{4685A0A2-4031-463E-BBD3-A6242DFA6835}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Door_Close" ID="{6019854E-F212-4E62-B343-5C11DF2360F4}">
+					<ChildrenList>
+						<Action Name="" ID="{76EF2E66-FBD9-4B1B-AD1A-5D4AC4C9A3C3}" ShortID="855731215">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="porte_fermeture" ID="{9EF3E9F0-2C90-4B64-B5DC-AD7D737FA6D2}" WorkUnitID="{4685A0A2-4031-463E-BBD3-A6242DFA6835}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Lanterne_Explode" ID="{08CAD396-4F95-414E-8F50-2FBFEAE69716}">
+					<ChildrenList>
+						<Action Name="" ID="{6DDC6E22-19AE-4CD7-8D49-F091B59F6B4E}" ShortID="711395852">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Explode" ID="{47384A06-DAFD-48B6-872C-CB8E9D457CD3}" WorkUnitID="{4685A0A2-4031-463E-BBD3-A6242DFA6835}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
 		</WorkUnit>
 	</Events>
 </WwiseDocument>

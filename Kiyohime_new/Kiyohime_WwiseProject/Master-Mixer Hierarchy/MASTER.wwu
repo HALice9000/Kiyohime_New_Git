@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{78CC9435-F360-435C-BBB9-8B46B317CBA4}" SchemaVersion="97" RootDocumentID="{8ADC8F06-A94A-4491-9EB5-E4FEAC0837DC}">
+	<Busses>
+		<WorkUnit Name="MASTER" ID="{78CC9435-F360-435C-BBB9-8B46B317CBA4}" OwnerID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" PersistMode="Nested">
+			<ChildrenList>
+				<Bus Name="MASTER SFX" ID="{9AAE12A7-C259-4D8C-8FBA-13566B1A8616}">
+					<ChildrenList>
+						<WorkUnit Name="Player" ID="{DCA37343-FA63-4D0D-B575-478E30D4DA8B}" PersistMode="Reference"/>
+						<WorkUnit Name="Menu" ID="{E2A57A23-64E3-4DB1-852F-C6EE8A02D074}" PersistMode="Reference"/>
+						<AuxBus Name="AnotherReverb" ID="{CD0EF4AF-AE38-4ABA-BCD7-15B184120561}"/>
+						<AuxBus Name="DefaultReverb" ID="{67EB2E94-0249-4D36-94A4-429E6C413C26}"/>
+						<WorkUnit Name="WORLD" ID="{ACC26F30-2B3A-4245-A9E7-43B898896FD1}" PersistMode="Reference"/>
+					</ChildrenList>
+				</Bus>
+				<Bus Name="MASTER VOICE" ID="{2857EFD2-4623-42A7-9324-B9E3277C65E4}">
+					<ChildrenList>
+						<WorkUnit Name="Voices" ID="{45A99F03-612C-4EC8-8466-BEB0E0DE022C}" PersistMode="Reference"/>
+					</ChildrenList>
+				</Bus>
+				<Bus Name="MASTER MUSIC" ID="{708E051A-33C2-4BD4-B7CA-AF6CAE2F1004}">
+					<ChildrenList>
+						<WorkUnit Name="Music" ID="{B910C2EA-CDCF-428D-A08C-34CC746B25EE}" PersistMode="Reference"/>
+					</ChildrenList>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

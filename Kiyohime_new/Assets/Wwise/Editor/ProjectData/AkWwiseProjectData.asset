@@ -30,30 +30,8 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 068fdc8a4aa991449eb5e4feac0837dc
     GuidInternal: 
-    m_lastTime: -8585861901617209264
+    m_lastTime: -8585810208338296566
     List:
-    - name: AnotherReverb
-      guid: aff40ecd38aeba4abcd715b184120561
-      id: 914128518
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: Master Audio Bus
-        ObjectType: 2
-      - ElementName: AnotherReverb
-        ObjectType: 1
-      Path: Default Work Unit\Master Audio Bus\AnotherReverb
-    - name: DefaultReverb
-      guid: 942eeb674902364d94a4429e6c413c26
-      id: 1591283508
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: Master Audio Bus
-        ObjectType: 2
-      - ElementName: DefaultReverb
-        ObjectType: 1
-      Path: Default Work Unit\Master Audio Bus\DefaultReverb
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
       id: 3803692087
@@ -63,33 +41,104 @@ MonoBehaviour:
       - ElementName: Master Audio Bus
         ObjectType: 2
       Path: Default Work Unit\Master Audio Bus
-  - PhysicalPath: Master-Mixer Hierarchy\Ennemies.wwu
+  - PhysicalPath: Master-Mixer Hierarchy\MASTER.wwu
     PathAndIcons:
     - ElementName: Default Work Unit
       ObjectType: 12
     - ElementName: Master Audio Bus
       ObjectType: 2
-    - ElementName: World
+    - ElementName: MASTER
       ObjectType: 12
-    - ElementName: Ennemies
-      ObjectType: 12
-    ParentPath: Default Work Unit\Master Audio Bus\World\Ennemies
-    guid: 5242e09982e97944ba8700f90b8f4fac
+    ParentPath: Default Work Unit\Master Audio Bus\MASTER
+    guid: 3594cc7860f35c43bbb98b46b317cba4
     GuidInternal: 
-    m_lastTime: -8585861901617209264
-    List: []
+    m_lastTime: -8585812984989402160
+    List:
+    - name: AnotherReverb
+      guid: aff40ecd38aeba4abcd715b184120561
+      id: 914128518
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: MASTER
+        ObjectType: 12
+      - ElementName: MASTER SFX
+        ObjectType: 2
+      - ElementName: AnotherReverb
+        ObjectType: 1
+      Path: Default Work Unit\Master Audio Bus\MASTER\MASTER SFX\AnotherReverb
+    - name: DefaultReverb
+      guid: 942eeb674902364d94a4429e6c413c26
+      id: 1591283508
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: MASTER
+        ObjectType: 12
+      - ElementName: MASTER SFX
+        ObjectType: 2
+      - ElementName: DefaultReverb
+        ObjectType: 1
+      Path: Default Work Unit\Master Audio Bus\MASTER\MASTER SFX\DefaultReverb
+    - name: MASTER MUSIC
+      guid: 1a058e70c233d44bb7caaf6cae2f1004
+      id: 2318586166
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: MASTER
+        ObjectType: 12
+      - ElementName: MASTER MUSIC
+        ObjectType: 2
+      Path: Default Work Unit\Master Audio Bus\MASTER\MASTER MUSIC
+    - name: MASTER SFX
+      guid: a712ae9a59c28c4d8fba13566b1a8616
+      id: 1078167454
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: MASTER
+        ObjectType: 12
+      - ElementName: MASTER SFX
+        ObjectType: 2
+      Path: Default Work Unit\Master Audio Bus\MASTER\MASTER SFX
+    - name: MASTER VOICE
+      guid: d2ef57282346a7429324b9e3277c65e4
+      id: 1921121713
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: MASTER
+        ObjectType: 12
+      - ElementName: MASTER VOICE
+        ObjectType: 2
+      Path: Default Work Unit\Master Audio Bus\MASTER\MASTER VOICE
   - PhysicalPath: Master-Mixer Hierarchy\Menu.wwu
     PathAndIcons:
     - ElementName: Default Work Unit
       ObjectType: 12
     - ElementName: Master Audio Bus
       ObjectType: 2
+    - ElementName: MASTER
+      ObjectType: 12
+    - ElementName: MASTER SFX
+      ObjectType: 2
     - ElementName: Menu
       ObjectType: 12
-    ParentPath: Default Work Unit\Master Audio Bus\Menu
+    ParentPath: Default Work Unit\Master Audio Bus\MASTER\MASTER SFX\Menu
     guid: 237aa5e2e364b14d852fc6ee8a02d074
     GuidInternal: 
-    m_lastTime: -8585861901617209264
+    m_lastTime: -8585812985570557612
     List: []
   - PhysicalPath: Master-Mixer Hierarchy\Music.wwu
     PathAndIcons:
@@ -97,25 +146,50 @@ MonoBehaviour:
       ObjectType: 12
     - ElementName: Master Audio Bus
       ObjectType: 2
+    - ElementName: MASTER
+      ObjectType: 12
+    - ElementName: MASTER MUSIC
+      ObjectType: 2
     - ElementName: Music
       ObjectType: 12
-    ParentPath: Default Work Unit\Master Audio Bus\Music
+    ParentPath: Default Work Unit\Master Audio Bus\MASTER\MASTER MUSIC\Music
     guid: eac210b9cfcd8d42a08c34cc746b25ee
     GuidInternal: 
-    m_lastTime: -8585861901617209264
-    List: []
+    m_lastTime: -8585812985570487801
+    List:
+    - name: Music
+      guid: 3a60cc3566303a44ac79af8e8f688500
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: MASTER
+        ObjectType: 12
+      - ElementName: MASTER MUSIC
+        ObjectType: 2
+      - ElementName: Music
+        ObjectType: 12
+      - ElementName: Music
+        ObjectType: 2
+      Path: Default Work Unit\Master Audio Bus\MASTER\MASTER MUSIC\Music\Music
   - PhysicalPath: Master-Mixer Hierarchy\Player.wwu
     PathAndIcons:
     - ElementName: Default Work Unit
       ObjectType: 12
     - ElementName: Master Audio Bus
       ObjectType: 2
+    - ElementName: MASTER
+      ObjectType: 12
+    - ElementName: MASTER SFX
+      ObjectType: 2
     - ElementName: Player
       ObjectType: 12
-    ParentPath: Default Work Unit\Master Audio Bus\Player
+    ParentPath: Default Work Unit\Master Audio Bus\MASTER\MASTER SFX\Player
     guid: 4373a3dc63fa0d4db575478e30d4da8b
     GuidInternal: 
-    m_lastTime: -8585861901617199291
+    m_lastTime: -8585812984989551756
     List:
     - name: Player
       guid: f44f8b9bb2821341b30913a1af82dad6
@@ -125,24 +199,121 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Master Audio Bus
         ObjectType: 2
+      - ElementName: MASTER
+        ObjectType: 12
+      - ElementName: MASTER SFX
+        ObjectType: 2
       - ElementName: Player
         ObjectType: 12
       - ElementName: Player
         ObjectType: 2
-      Path: Default Work Unit\Master Audio Bus\Player\Player
-  - PhysicalPath: Master-Mixer Hierarchy\World.wwu
+      Path: Default Work Unit\Master Audio Bus\MASTER\MASTER SFX\Player\Player
+  - PhysicalPath: Master-Mixer Hierarchy\Voices.wwu
     PathAndIcons:
     - ElementName: Default Work Unit
       ObjectType: 12
     - ElementName: Master Audio Bus
       ObjectType: 2
-    - ElementName: World
+    - ElementName: MASTER
       ObjectType: 12
-    ParentPath: Default Work Unit\Master Audio Bus\World
-    guid: eec40b1c15d74f4aa1411574614cd634
+    - ElementName: MASTER VOICE
+      ObjectType: 2
+    - ElementName: Voices
+      ObjectType: 12
+    ParentPath: Default Work Unit\Master Audio Bus\MASTER\MASTER VOICE\Voices
+    guid: 039fa9452c61c84e8466beb0e0de022c
     GuidInternal: 
-    m_lastTime: -8585861901617199291
-    List: []
+    m_lastTime: -8585812985570418268
+    List:
+    - name: Huge_Reverb
+      guid: bcbd594d62fe8d43b42daf45551df477
+      id: 3727266879
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: MASTER
+        ObjectType: 12
+      - ElementName: MASTER VOICE
+        ObjectType: 2
+      - ElementName: Voices
+        ObjectType: 12
+      - ElementName: Voices
+        ObjectType: 2
+      - ElementName: Huge_Reverb
+        ObjectType: 1
+      Path: Default Work Unit\Master Audio Bus\MASTER\MASTER VOICE\Voices\Voices\Huge_Reverb
+    - name: Small_Reverb
+      guid: 62e7e0e034fad84f8a1e2d0b6637d920
+      id: 4052205305
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: MASTER
+        ObjectType: 12
+      - ElementName: MASTER VOICE
+        ObjectType: 2
+      - ElementName: Voices
+        ObjectType: 12
+      - ElementName: Voices
+        ObjectType: 2
+      - ElementName: Small_Reverb
+        ObjectType: 1
+      Path: Default Work Unit\Master Audio Bus\MASTER\MASTER VOICE\Voices\Voices\Small_Reverb
+    - name: Voices
+      guid: 4b5abfed041c224fa7ff990a0e1120c4
+      id: 3313685232
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: MASTER
+        ObjectType: 12
+      - ElementName: MASTER VOICE
+        ObjectType: 2
+      - ElementName: Voices
+        ObjectType: 12
+      - ElementName: Voices
+        ObjectType: 2
+      Path: Default Work Unit\Master Audio Bus\MASTER\MASTER VOICE\Voices\Voices
+  - PhysicalPath: Master-Mixer Hierarchy\WORLD.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    - ElementName: Master Audio Bus
+      ObjectType: 2
+    - ElementName: MASTER
+      ObjectType: 12
+    - ElementName: MASTER SFX
+      ObjectType: 2
+    - ElementName: WORLD
+      ObjectType: 12
+    ParentPath: Default Work Unit\Master Audio Bus\MASTER\MASTER SFX\WORLD
+    guid: 306fc2ac3a2b4542a9e743b898896fd1
+    GuidInternal: 
+    m_lastTime: -8585812961878345148
+    List:
+    - name: WorldAmbient
+      guid: 0a94e9cf6a4b414fb30a980796834af2
+      id: 3261268017
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: MASTER
+        ObjectType: 12
+      - ElementName: MASTER SFX
+        ObjectType: 2
+      - ElementName: WORLD
+        ObjectType: 12
+      - ElementName: WorldAmbient
+        ObjectType: 2
+      Path: Default Work Unit\Master Audio Bus\MASTER\MASTER SFX\WORLD\WorldAmbient
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     PathAndIcons:
@@ -151,7 +322,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: c032954cf0119a43ab4d5050c303e10b
     GuidInternal: 
-    m_lastTime: -8585861901614601179
+    m_lastTime: -8585816446007542585
     List:
     - name: AllInOne
       guid: bfaeffa49324fd4f86446578afe9325f
@@ -170,8 +341,33 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 64371048c7053444b71deb9039349635
     GuidInternal: 
-    m_lastTime: -8585861901619652821
+    m_lastTime: -8585824229915497717
     List: []
+  - PhysicalPath: Events\Dialogue.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    - ElementName: Dialogue
+      ObjectType: 12
+    ParentPath: Default Work Unit\Dialogue
+    guid: 3283fc6a89e23c499377569dcf75aa58
+    GuidInternal: 
+    m_lastTime: -8585824190922628331
+    List:
+    - name: Play_Dialogue
+      guid: 34d30f59609766498fda4ee5130bfa4a
+      id: 267911644
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogue
+        ObjectType: 12
+      - ElementName: Play_Dialogue
+        ObjectType: 3
+      Path: Default Work Unit\Dialogue\Play_Dialogue
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   - PhysicalPath: Events\Ennemies.wwu
     PathAndIcons:
     - ElementName: Default Work Unit
@@ -181,8 +377,78 @@ MonoBehaviour:
     ParentPath: Default Work Unit\Ennemies
     guid: 692aa69ad7d75645822eee1b24ff139a
     GuidInternal: 
-    m_lastTime: -8585861901619652821
-    List: []
+    m_lastTime: -8585807009679512035
+    List:
+    - name: KappaStart
+      guid: 0f6ad3e315b56243969f832e86480db7
+      id: 2437339254
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ennemies
+        ObjectType: 12
+      - ElementName: KappaStart
+        ObjectType: 3
+      Path: Default Work Unit\Ennemies\KappaStart
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: KappaStop
+      guid: bab49b0e2c18f24b93aece04e4b9f5bc
+      id: 3363652086
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ennemies
+        ObjectType: 12
+      - ElementName: KappaStop
+        ObjectType: 3
+      Path: Default Work Unit\Ennemies\KappaStop
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Squelette_Scream
+      guid: 00b8752525785549981b2b2937aa1362
+      id: 1769993061
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ennemies
+        ObjectType: 12
+      - ElementName: Squelette_Scream
+        ObjectType: 3
+      Path: Default Work Unit\Ennemies\Squelette_Scream
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: SqueletteBreath_Start
+      guid: 84952c8caf3c7748a8c500806ade314a
+      id: 4175038752
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ennemies
+        ObjectType: 12
+      - ElementName: SqueletteBreath_Start
+        ObjectType: 3
+      Path: Default Work Unit\Ennemies\SqueletteBreath_Start
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: SqueletteBreath_Stop
+      guid: a724e5abd5749b4cb047ac8f4dc0dd3b
+      id: 2746084428
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ennemies
+        ObjectType: 12
+      - ElementName: SqueletteBreath_Stop
+        ObjectType: 3
+      Path: Default Work Unit\Ennemies\SqueletteBreath_Stop
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   - PhysicalPath: Events\EXEMPLE.wwu
     PathAndIcons:
     - ElementName: Default Work Unit
@@ -192,7 +458,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit\EXEMPLE
     guid: 014ef4dfb966e44aa9685c52e1aaabd9
     GuidInternal: 
-    m_lastTime: -8585861901619652821
+    m_lastTime: -8585862037950621716
     List:
     - name: respirationOff
       guid: f8cfaffbe5518244b9b7487c240936f7
@@ -231,7 +497,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit\Menu
     guid: ab3b3b56beb32f4d97eaf2583c7b3cec
     GuidInternal: 
-    m_lastTime: -8585861901619642844
+    m_lastTime: -8585862091974775808
     List: []
   - PhysicalPath: Events\Music.wwu
     PathAndIcons:
@@ -242,19 +508,61 @@ MonoBehaviour:
     ParentPath: Default Work Unit\Music
     guid: db9f5917f1340f44bf68247a2dbdda5b
     GuidInternal: 
-    m_lastTime: -8585861901619642844
+    m_lastTime: -8585807009679442342
     List:
-    - name: PlayMusic
-      guid: 83da079c22a90a47b7e03281c6c5f9be
-      id: 417627684
+    - name: MainMenu_Play
+      guid: 978dabc2e33371488c2ba67b1d892af9
+      id: 777890284
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
       - ElementName: Music
         ObjectType: 12
-      - ElementName: PlayMusic
+      - ElementName: MainMenu_Play
         ObjectType: 3
-      Path: Default Work Unit\Music\PlayMusic
+      Path: Default Work Unit\Music\MainMenu_Play
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: MainMenu_Stop
+      guid: d2538e4aa8ec2a4c829ecb2cc8a16209
+      id: 2747674870
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music
+        ObjectType: 12
+      - ElementName: MainMenu_Stop
+        ObjectType: 3
+      Path: Default Work Unit\Music\MainMenu_Stop
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Music
+      guid: 83da079c22a90a47b7e03281c6c5f9be
+      id: 2932040671
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music
+        ObjectType: 12
+      - ElementName: Play_Music
+        ObjectType: 3
+      Path: Default Work Unit\Music\Play_Music
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Stop_Music
+      guid: 5bcb21f26892bc4997a3a7e69f71b1a2
+      id: 2837384057
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music
+        ObjectType: 12
+      - ElementName: Stop_Music
+        ObjectType: 3
+      Path: Default Work Unit\Music\Stop_Music
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -267,7 +575,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit\Player
     guid: 33312c8227bf0548a6b192ec9dcad7cf
     GuidInternal: 
-    m_lastTime: -8585861901619642844
+    m_lastTime: -8585862026465658800
     List:
     - name: Player_Footstep
       guid: 59832c478f2e804b8130d6c732255791
@@ -320,8 +628,120 @@ MonoBehaviour:
     ParentPath: Default Work Unit\World
     guid: b4eb7543aeacc84fa74a4ff69c791300
     GuidInternal: 
-    m_lastTime: -8585861901619632883
-    List: []
+    m_lastTime: -8585812961878434640
+    List:
+    - name: Door_Close
+      guid: 4e85196012f2624eb3435c11df2360f4
+      id: 128625444
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: World
+        ObjectType: 12
+      - ElementName: Door_Close
+        ObjectType: 3
+      Path: Default Work Unit\World\Door_Close
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Door_Open
+      guid: 5b44fb3ba2ac4448b71760d47d7375e0
+      id: 535830432
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: World
+        ObjectType: 12
+      - ElementName: Door_Open
+        ObjectType: 3
+      Path: Default Work Unit\World\Door_Open
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Lanterne_Explode
+      guid: 96d3ca08954f4e418f502fbfeae69716
+      id: 3314108862
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: World
+        ObjectType: 12
+      - ElementName: Lanterne_Explode
+        ObjectType: 3
+      Path: Default Work Unit\World\Lanterne_Explode
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Ambient
+      guid: c9d77099808dc64dadfcb306e1fecf5c
+      id: 1562304622
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: World
+        ObjectType: 12
+      - ElementName: Play_Ambient
+        ObjectType: 3
+      Path: Default Work Unit\World\Play_Ambient
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Stop_Ambient
+      guid: c0ea6c21c8e4134c86fd836c1c170abe
+      id: 3850878248
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: World
+        ObjectType: 12
+      - ElementName: Stop_Ambient
+        ObjectType: 3
+      Path: Default Work Unit\World\Stop_Ambient
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Waterfall_0
+      guid: 437035aa3ec40745a696c2686789a9fc
+      id: 2089625052
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: World
+        ObjectType: 12
+      - ElementName: Waterfall_0
+        ObjectType: 3
+      Path: Default Work Unit\World\Waterfall_0
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Waterfall_1
+      guid: ce7d544d35e2fa4c95ac7fadda0325d6
+      id: 2089625053
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: World
+        ObjectType: 12
+      - ElementName: Waterfall_1
+        ObjectType: 3
+      Path: Default Work Unit\World\Waterfall_1
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Waterfall_2
+      guid: 5602161c5133a24c98c7e90018ea26e6
+      id: 2089625054
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: World
+        ObjectType: 12
+      - ElementName: Waterfall_2
+        ObjectType: 3
+      Path: Default Work Unit\World\Waterfall_2
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -330,17 +750,8 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: c33429142aaea447a775aa8fc1f46d6a
     GuidInternal: 
-    m_lastTime: -8585861901619622908
-    List:
-    - name: EXEMPLE_CurrLifeInfo
-      guid: b32b227ddfc56d4b819feae73278c602
-      id: 485103962
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: EXEMPLE_CurrLifeInfo
-        ObjectType: 13
-      Path: Default Work Unit\EXEMPLE_CurrLifeInfo
+    m_lastTime: -8585824223225279613
+    List: []
   - PhysicalPath: Game Parameters\Menu.wwu
     PathAndIcons:
     - ElementName: Default Work Unit
@@ -350,7 +761,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit\Menu
     guid: a5ffecbf75776240bea01a3a9f784947
     GuidInternal: 
-    m_lastTime: -8585861901619622908
+    m_lastTime: -8585862091974775808
     List:
     - name: Volume_Music
       guid: a16710046b58224f8310a5927c83a05f
@@ -393,8 +804,300 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 7b89059c9000fc4d922233e65e6ee3bd
     GuidInternal: 
-    m_lastTime: -8585861901614601179
-    List: []
+    m_lastTime: -8585810209488061435
+    List:
+    - name: Ambient_Zone
+      guid: 489d7e617d151544aacea9ddcf817300
+      id: 3147241156
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ambient_Zone
+        ObjectType: 9
+      Path: Default Work Unit\Ambient_Zone
+      values:
+      - name: Forest
+        guid: 67e3a4faed33ee4783557171feb132ae
+        id: 491961918
+        PathAndIcons:
+        - ElementName: Forest
+          ObjectType: 8
+      - name: None
+        guid: 034c62f4b6b96d4bbf1466d7f2093944
+        id: 748895195
+        PathAndIcons:
+        - ElementName: None
+          ObjectType: 8
+      - name: Recovery
+        guid: 4ee6767b77d0244097532f9cac46d841
+        id: 215593132
+        PathAndIcons:
+        - ElementName: Recovery
+          ObjectType: 8
+      - name: Swamp
+        guid: dc94be1c06022f4bb46c01bf1e922134
+        id: 2907906111
+        PathAndIcons:
+        - ElementName: Swamp
+          ObjectType: 8
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: DialogueIndex
+      guid: ec6cda720980374e96f2360fd4df8e97
+      id: 371629313
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: DialogueIndex
+        ObjectType: 9
+      Path: Default Work Unit\DialogueIndex
+      values:
+      - name: Dialogue_0
+        guid: 96785364d5b42d4d98156519d31d00d2
+        id: 3196045926
+        PathAndIcons:
+        - ElementName: Dialogue_0
+          ObjectType: 8
+      - name: Dialogue_1
+        guid: b0068bc6757e6644ab6da1e025b095d6
+        id: 3196045927
+        PathAndIcons:
+        - ElementName: Dialogue_1
+          ObjectType: 8
+      - name: Dialogue_10
+        guid: ff4049ec08b83547856021f911bdc713
+        id: 1244373013
+        PathAndIcons:
+        - ElementName: Dialogue_10
+          ObjectType: 8
+      - name: Dialogue_11
+        guid: 973b5de98ab9d84f969a7e81a1d2682e
+        id: 1244373012
+        PathAndIcons:
+        - ElementName: Dialogue_11
+          ObjectType: 8
+      - name: Dialogue_12
+        guid: 3adc877b2ed7424ba15b00cc69015142
+        id: 1244373015
+        PathAndIcons:
+        - ElementName: Dialogue_12
+          ObjectType: 8
+      - name: Dialogue_13
+        guid: d446b4970cd52c45b760492e45ee4ee3
+        id: 1244373014
+        PathAndIcons:
+        - ElementName: Dialogue_13
+          ObjectType: 8
+      - name: Dialogue_14
+        guid: ad3064fe8607be4fbb9453efd4f60ad9
+        id: 1244373009
+        PathAndIcons:
+        - ElementName: Dialogue_14
+          ObjectType: 8
+      - name: Dialogue_15
+        guid: d936b3c34cd54649990b714e419dfae1
+        id: 1244373008
+        PathAndIcons:
+        - ElementName: Dialogue_15
+          ObjectType: 8
+      - name: Dialogue_16
+        guid: e0ab50b72239884f87ff1cec47369d3f
+        id: 1244373011
+        PathAndIcons:
+        - ElementName: Dialogue_16
+          ObjectType: 8
+      - name: Dialogue_17
+        guid: 4fe5717adb921c438b087f3c58657a6f
+        id: 1244373010
+        PathAndIcons:
+        - ElementName: Dialogue_17
+          ObjectType: 8
+      - name: Dialogue_18
+        guid: f1afe55601d79948bb2571dd4e3a1a31
+        id: 1244373021
+        PathAndIcons:
+        - ElementName: Dialogue_18
+          ObjectType: 8
+      - name: Dialogue_19
+        guid: 54d1652566c6d148a3e359c4c6ee3a8d
+        id: 1244373020
+        PathAndIcons:
+        - ElementName: Dialogue_19
+          ObjectType: 8
+      - name: Dialogue_2
+        guid: fe98420c94e9ee489db4ca73b63ddf69
+        id: 3196045924
+        PathAndIcons:
+        - ElementName: Dialogue_2
+          ObjectType: 8
+      - name: Dialogue_20
+        guid: f2b9ea4872d33540895ac9d1747c6a9b
+        id: 1194040156
+        PathAndIcons:
+        - ElementName: Dialogue_20
+          ObjectType: 8
+      - name: Dialogue_21
+        guid: 795f4365f23b104cb9137eac8448f09c
+        id: 1194040157
+        PathAndIcons:
+        - ElementName: Dialogue_21
+          ObjectType: 8
+      - name: Dialogue_22
+        guid: 561a58bb6069904b95b3263be84be618
+        id: 1194040158
+        PathAndIcons:
+        - ElementName: Dialogue_22
+          ObjectType: 8
+      - name: Dialogue_23
+        guid: 42edb13315716949acf3683d3dd3c756
+        id: 1194040159
+        PathAndIcons:
+        - ElementName: Dialogue_23
+          ObjectType: 8
+      - name: Dialogue_24
+        guid: b2111b3ef91d8e44a28538bb183f8835
+        id: 1194040152
+        PathAndIcons:
+        - ElementName: Dialogue_24
+          ObjectType: 8
+      - name: Dialogue_25
+        guid: 411cb8d4d02dee41baae16c1b959b293
+        id: 1194040153
+        PathAndIcons:
+        - ElementName: Dialogue_25
+          ObjectType: 8
+      - name: Dialogue_3
+        guid: 8b483fc63bae7b4ca2262845533652d4
+        id: 3196045925
+        PathAndIcons:
+        - ElementName: Dialogue_3
+          ObjectType: 8
+      - name: Dialogue_4
+        guid: f7553f6871ea13489469a23c167bd99a
+        id: 3196045922
+        PathAndIcons:
+        - ElementName: Dialogue_4
+          ObjectType: 8
+      - name: Dialogue_5
+        guid: 9586186a922f20449a8145c756e73b16
+        id: 3196045923
+        PathAndIcons:
+        - ElementName: Dialogue_5
+          ObjectType: 8
+      - name: Dialogue_6
+        guid: 49298eba6a78b1418bbeac31f5266446
+        id: 3196045920
+        PathAndIcons:
+        - ElementName: Dialogue_6
+          ObjectType: 8
+      - name: Dialogue_7
+        guid: 6af42451a5168648859d2292362219d9
+        id: 3196045921
+        PathAndIcons:
+        - ElementName: Dialogue_7
+          ObjectType: 8
+      - name: Dialogue_8
+        guid: fbbf56cd2ff0cb42b0819a9a6b28a2af
+        id: 3196045934
+        PathAndIcons:
+        - ElementName: Dialogue_8
+          ObjectType: 8
+      - name: Dialogue_9
+        guid: e9077d3398db2846b65ae0009157df31
+        id: 3196045935
+        PathAndIcons:
+        - ElementName: Dialogue_9
+          ObjectType: 8
+      - name: None
+        guid: b49a625741a83d438f7ffd1129edf159
+        id: 748895195
+        PathAndIcons:
+        - ElementName: None
+          ObjectType: 8
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: MainMenuMusic
+      guid: 4b79cc4b3b6b004f9a3e6fa2f1d6feb3
+      id: 1991862712
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: MainMenuMusic
+        ObjectType: 9
+      Path: Default Work Unit\MainMenuMusic
+      values:
+      - name: First
+        guid: b9f912dd4edd5a4796c1b43ce6b24a35
+        id: 998496889
+        PathAndIcons:
+        - ElementName: First
+          ObjectType: 8
+      - name: None
+        guid: 207b2bbb72531440848785b7eaf0f235
+        id: 748895195
+        PathAndIcons:
+        - ElementName: None
+          ObjectType: 8
+      - name: Second
+        guid: 6448322beb50e3479aa0b313daaccc9f
+        id: 3476314365
+        PathAndIcons:
+        - ElementName: Second
+          ObjectType: 8
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: Music_Progress
+      guid: 4d416aa86c4e5041b47cac82805b1a1f
+      id: 4150154280
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music_Progress
+        ObjectType: 9
+      Path: Default Work Unit\Music_Progress
+      values:
+      - name: Course
+        guid: 97d1a49eae6ef04da7105db951451db6
+        id: 164666302
+        PathAndIcons:
+        - ElementName: Course
+          ObjectType: 8
+      - name: Final
+        guid: 186f9dd8ad009346b6d77a1251d74d57
+        id: 565529991
+        PathAndIcons:
+        - ElementName: Final
+          ObjectType: 8
+      - name: Intro
+        guid: 1e223c553ac66a42acc556721be47628
+        id: 1125500713
+        PathAndIcons:
+        - ElementName: Intro
+          ObjectType: 8
+      - name: None
+        guid: a8eedada65caa543a65697f9461ecbde
+        id: 748895195
+        PathAndIcons:
+        - ElementName: None
+          ObjectType: 8
+      - name: PreFinal
+        guid: 71c8b5696b37c24e93480ece3c811b1e
+        id: 2747357872
+        PathAndIcons:
+        - ElementName: PreFinal
+          ObjectType: 8
+      - name: Recovery
+        guid: 2a606472bc757d4c98b6c1ac2f2419b9
+        id: 215593132
+        PathAndIcons:
+        - ElementName: Recovery
+          ObjectType: 8
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     PathAndIcons:
@@ -403,7 +1106,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 2b88716f8eb4934fb01db170e44475b3
     GuidInternal: 
-    m_lastTime: -8585861901614601179
+    m_lastTime: -8585824223225319509
     List: []
   - PhysicalPath: Switches\Player.wwu
     PathAndIcons:
@@ -414,7 +1117,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit\Player
     guid: 7c9a8bfd8c5a60428738c9e796412b47
     GuidInternal: 
-    m_lastTime: -8585861901614591204
+    m_lastTime: -8585862091974775808
     List:
     - name: Player_FootSwitch
       guid: 78e5dbd77e4ac449a4b6f5a55abcd552
@@ -461,9 +1164,8 @@ MonoBehaviour:
     List: []
   ExpandedItems:
   - /Kiyohime_WwiseProject
-  - /Kiyohime_WwiseProject/Events
-  - /Kiyohime_WwiseProject/Events/Default Work Unit
-  - /Kiyohime_WwiseProject/Events/Default Work Unit/EXEMPLE
-  - /Kiyohime_WwiseProject/Events/Default Work Unit/Player
+  - /Kiyohime_WwiseProject/States
+  - /Kiyohime_WwiseProject/States/Default Work Unit
+  - /Kiyohime_WwiseProject/States/Default Work Unit/Music_Progress
   autoPopulateEnabled: 1
   CurrentPluginConfig: 

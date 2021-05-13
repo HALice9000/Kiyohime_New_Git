@@ -36,6 +36,8 @@ public class s_TriggerBox : MonoBehaviour
                 LaunchThisDialogue();
 
             collision.gameObject.GetComponent<Gamekit2D.PlayerCharacter>().inCinematic = true;
+
+            Destroy(gameObject);
         }
     }
 

@@ -3,6 +3,8 @@ using UnityEngine;
 
 public static class WWISETOOL 
 {
+    //_____________________________________________________________________________________FRIENDLY TOOLS___________________________________________________________________________//
+
     #region Bank Manager
 
     /// <summary>
@@ -100,6 +102,7 @@ public static class WWISETOOL
     #endregion
 
     #region Clear Audio
+
     public static List<GameObject> allSourceEmitter = new List<GameObject>();
 
     /// <summary>
@@ -125,10 +128,14 @@ public static class WWISETOOL
     /// A chaque fois que le texte change, appeler cette fonction. Il faut que l'emitter du son soit le même à chaque appel (Ca peut être n'importe quel objet). Ne doit pas être appeler en continu.
     /// </summary>
     /// <param name="emitter"></param>
-    public static void PlayNextDialogue(GameObject emitter)
+    public static void PlayNextDialogue()
     {
-        string eventToPlay = "D_" + currDialogue.ToString(); //Les events de dialogue seront appelé ainsi "D_0, D_1, D_2, ..." avec une simple int toString on peut faire un automatisation.
-        PlaySound(eventToPlay, emitter);
+        AkSoundEngine.StopAll(WWISE_MANAGER.instance.dialogueSource);
+        AkSoundEngine.SetState("DialogueIndex", "Dialogue_" + currDialogue.ToString()); //Les events de dialogue seront appelé ainsi "Dialogue_0, Dialogue_1, Dialogue_2, ..." avec une simple int toString on peut faire un automatisation.
+        PlaySound("Play_Dialogue", WWISE_MANAGER.instance.dialogueSource);
+
+        Debug.Log(currDialogue);
+
         currDialogue++;
     }
     /// <summary>
@@ -136,12 +143,71 @@ public static class WWISETOOL
     /// </summary>
     /// <param name="emitter"></param>
     /// <param name="specificDialogue"></param>
-    public static void PlayNextDialogue(GameObject emitter, int specificDialogue)
+    public static void PlaySpecificDialogue(int specificDialogue)
     {
-        string eventToPlay = "D_" + specificDialogue.ToString();
-        PlaySound(eventToPlay, emitter);
-        currDialogue++;
+        AkSoundEngine.SetState("DialogueIndex", "Dialogue_" + specificDialogue.ToString()); //Les events de dialogue seront appelé ainsi "Dialogue_0, Dialogue_1, Dialogue_2, ..." avec une simple int toString on peut faire un automatisation.
+        PlaySound("Play_Dialogue", WWISE_MANAGER.instance.dialogueSource);
     }
 
     #endregion
+
+
+    //______________________________________________________________________________________GAME UTILITY__________________________________________________________________________//
+
+    /// <summary>
+    /// Call on main menu start();
+    /// </summary>
+    public static void StartMenuMusic()
+    {
+        AkSoundEngine.PostEvent("MainMenu_Play", WWISE_MANAGER.instance.musicSource);
+    }
+
+    /// <summary>
+    /// Call on Play Button()
+    /// </summary>
+    public static void StopMenuMusic()
+    {
+        AkSoundEngine.PostEvent("MainMenu_Stop", WWISE_MANAGER.instance.musicSource);
+    }
+
+    /// <summary>
+    /// Call on pause menu start();
+    /// </summary>
+    public static void StartPauseMenu()
+    {
+        //maybe mix ? music ? ambient ?
+    }
+
+    /// <summary>
+    /// Call on pause menu stop();
+    /// </summary>
+    public static void StopPauseMenu()
+    {
+        //maybe mix ? music ? ambient ?
+    }
+
+    /// <summary>
+    /// Call when game start
+    /// </summary>
+    public static void StartGameMusic()
+    {
+        AkSoundEngine.PostEvent("Play_Music", WWISE_MANAGER.instance.musicSource);
+    }
+
+    /// <summary>
+    /// Call when going to menu or leave game
+    /// </summary>
+    public static void StopGameMusic()
+    {
+        AkSoundEngine.PostEvent("Stop_Music", WWISE_MANAGER.instance.musicSource);
+    }
+
+    /// <summary>
+    /// Call on trigger to progress music
+    /// </summary>
+    /// <param name="newState"></param>
+    public static void SwitchMusic(AK.Wwise.State newState)
+    {
+        newState.SetValue();
+    }
 }

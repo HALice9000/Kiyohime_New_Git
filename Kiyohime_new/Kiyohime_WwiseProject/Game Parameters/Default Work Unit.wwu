@@ -4,11 +4,6 @@
 		<WorkUnit Name="Default Work Unit" ID="{142934C3-AE2A-47A4-A775-AA8FC1F46D6A}" PersistMode="Standalone">
 			<ChildrenList>
 				<WorkUnit Name="Menu" ID="{BFECFFA5-7775-4062-BEA0-1A3A9F784947}" PersistMode="Reference"/>
-				<GameParameter Name="EXEMPLE_CurrLifeInfo" ID="{7D222BB3-C5DF-4B6D-819F-EAE73278C602}">
-					<PropertyList>
-						<Property Name="InitialValue" Type="Real64" Value="100"/>
-					</PropertyList>
-				</GameParameter>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

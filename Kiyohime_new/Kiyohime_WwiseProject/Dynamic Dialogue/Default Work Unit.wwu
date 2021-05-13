@@ -1,6 +1,192 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{B32E9CEE-B562-4D28-8EB7-DE2484245E5D}" SchemaVersion="97">
 	<DynamicDialogue>
-		<WorkUnit Name="Default Work Unit" ID="{B32E9CEE-B562-4D28-8EB7-DE2484245E5D}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{B32E9CEE-B562-4D28-8EB7-DE2484245E5D}" PersistMode="Standalone">
+			<ChildrenList>
+				<DialogueEvent Name="Play_Dialogue" ID="{D26D7205-1555-4D0C-999F-B02C791FA90D}">
+					<ArgumentList>
+						<ArgumentRef Name="DialogueIndex" ID="{72DA6CEC-8009-4E37-96F2-360FD4DF8E97}"/>
+					</ArgumentList>
+					<EntryList>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Dialogue_0" ID="{64537896-B4D5-4D2D-9815-6519D31D00D2}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="0_Anchin" ID="{B5EADC60-AFC2-4BAE-910B-271E6F72D295}" WorkUnitID="{029E79A4-FEC2-40AB-A50D-3CF6898CAD51}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Dialogue_1" ID="{C68B06B0-7E75-4466-AB6D-A1E025B095D6}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="1_Kiyohime" ID="{E43B6B7B-4360-448F-9968-4D91B16C646F}" WorkUnitID="{029E79A4-FEC2-40AB-A50D-3CF6898CAD51}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Dialogue_2" ID="{0C4298FE-E994-48EE-9DB4-CA73B63DDF69}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="2_Anchin" ID="{8DF08E7C-DE32-4AF4-8E84-A42B38CF59AC}" WorkUnitID="{029E79A4-FEC2-40AB-A50D-3CF6898CAD51}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Dialogue_3" ID="{C63F488B-AE3B-4C7B-A226-2845533652D4}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="3_Kiyohime" ID="{CB329B6D-F581-48D3-8497-E9F3240FBF44}" WorkUnitID="{029E79A4-FEC2-40AB-A50D-3CF6898CAD51}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Dialogue_4" ID="{683F55F7-EA71-4813-9469-A23C167BD99A}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="4_Anchin" ID="{75CD74AE-BD72-425B-8B10-FBD00A8E60A0}" WorkUnitID="{029E79A4-FEC2-40AB-A50D-3CF6898CAD51}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Dialogue_5" ID="{6A188695-2F92-4420-9A81-45C756E73B16}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="5_Kiyohime" ID="{7FC4CAAE-149D-4DB1-BC33-8BC0AD491665}" WorkUnitID="{029E79A4-FEC2-40AB-A50D-3CF6898CAD51}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Dialogue_6" ID="{BA8E2949-786A-41B1-8BBE-AC31F5266446}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="6_Yamata" ID="{786F73B8-9502-4856-B5A8-D7B06253FE47}" WorkUnitID="{029E79A4-FEC2-40AB-A50D-3CF6898CAD51}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Dialogue_7" ID="{5124F46A-16A5-4886-859D-2292362219D9}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="7_Kiyohime" ID="{9058BF04-7863-4994-AEC0-FAC78C8CFAA2}" WorkUnitID="{029E79A4-FEC2-40AB-A50D-3CF6898CAD51}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Dialogue_8" ID="{CD56BFFB-F02F-42CB-B081-9A9A6B28A2AF}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="8_Suiko" ID="{8110B19E-22E5-4563-A5C4-6151A4A093D8}" WorkUnitID="{029E79A4-FEC2-40AB-A50D-3CF6898CAD51}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Dialogue_9" ID="{337D07E9-DB98-4628-B65A-E0009157DF31}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="9_Yamata" ID="{86693E6D-2459-46FF-8E60-EC6AAED82FA2}" WorkUnitID="{029E79A4-FEC2-40AB-A50D-3CF6898CAD51}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Dialogue_10" ID="{EC4940FF-B808-4735-8560-21F911BDC713}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="10_Kiyohime" ID="{79A0DB60-33BE-4E8E-BFAE-E33FD91003A1}" WorkUnitID="{029E79A4-FEC2-40AB-A50D-3CF6898CAD51}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Dialogue_11" ID="{E95D3B97-B98A-4FD8-969A-7E81A1D2682E}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="11_Suiko" ID="{F5C169BC-3D08-4B3F-9332-5989329D267D}" WorkUnitID="{029E79A4-FEC2-40AB-A50D-3CF6898CAD51}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Dialogue_12" ID="{7B87DC3A-D72E-4B42-A15B-00CC69015142}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="12_Kiyohime" ID="{6CF641AE-20A0-479E-8E01-7E646DEDD78A}" WorkUnitID="{029E79A4-FEC2-40AB-A50D-3CF6898CAD51}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Dialogue_13" ID="{97B446D4-D50C-452C-B760-492E45EE4EE3}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="13_Suiko" ID="{B7D7E86A-0345-4A78-A267-7420DA1F5A29}" WorkUnitID="{029E79A4-FEC2-40AB-A50D-3CF6898CAD51}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Dialogue_14" ID="{FE6430AD-0786-4FBE-BB94-53EFD4F60AD9}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="14_Anchin" ID="{95776063-9734-43E2-A2B0-E63774E2F383}" WorkUnitID="{029E79A4-FEC2-40AB-A50D-3CF6898CAD51}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Dialogue_15" ID="{C3B336D9-D54C-4946-990B-714E419DFAE1}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="15_Kiyohime" ID="{FB30C438-3026-45DB-979A-B11647817E21}" WorkUnitID="{029E79A4-FEC2-40AB-A50D-3CF6898CAD51}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Dialogue_16" ID="{B750ABE0-3922-4F88-87FF-1CEC47369D3F}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="16_Anchin" ID="{F32B5F85-8840-4DC2-BE21-C5D2A5015261}" WorkUnitID="{029E79A4-FEC2-40AB-A50D-3CF6898CAD51}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Dialogue_17" ID="{7A71E54F-92DB-431C-8B08-7F3C58657A6F}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="17_Anchin" ID="{D038FDD7-BD6C-4411-B53B-EDDF5BA118D2}" WorkUnitID="{029E79A4-FEC2-40AB-A50D-3CF6898CAD51}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Dialogue_18" ID="{56E5AFF1-D701-4899-BB25-71DD4E3A1A31}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="18_Kiyohime" ID="{9E18548F-3EEA-41DA-BC0A-EC6A61DE6BC3}" WorkUnitID="{029E79A4-FEC2-40AB-A50D-3CF6898CAD51}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Dialogue_19" ID="{2565D154-C666-48D1-A3E3-59C4C6EE3A8D}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="19_Yamata" ID="{A43BB503-0DFA-40D2-8C7F-2EF21A9D8866}" WorkUnitID="{029E79A4-FEC2-40AB-A50D-3CF6898CAD51}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Dialogue_20" ID="{48EAB9F2-D372-4035-895A-C9D1747C6A9B}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="20_Kiyohime" ID="{9A1C71EE-040B-4D41-9F6C-2D505AE8D0FB}" WorkUnitID="{029E79A4-FEC2-40AB-A50D-3CF6898CAD51}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Dialogue_21" ID="{65435F79-3BF2-4C10-B913-7EAC8448F09C}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="21_Kiyohime" ID="{0FE77266-5E90-4AD4-A08C-5325B06CEB37}" WorkUnitID="{029E79A4-FEC2-40AB-A50D-3CF6898CAD51}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+					</EntryList>
+				</DialogueEvent>
+			</ChildrenList>
+		</WorkUnit>
 	</DynamicDialogue>
 </WwiseDocument>

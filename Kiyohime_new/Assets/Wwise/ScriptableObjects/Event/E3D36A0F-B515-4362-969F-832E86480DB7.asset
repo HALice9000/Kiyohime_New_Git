@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 232b2bbd4d189ef42954f1d3aae30405, type: 3}
+  m_Name: E3D36A0F-B515-4362-969F-832E86480DB7
+  m_EditorClassIdentifier: 
+  objectName: KappaStart
+  id: 2437339254
+  guid: E3D36A0F-B515-4362-969F-832E86480DB7

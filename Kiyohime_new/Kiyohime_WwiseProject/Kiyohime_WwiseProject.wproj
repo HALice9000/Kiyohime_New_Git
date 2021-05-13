@@ -6,12 +6,13 @@
 				<Platform Name="Windows" ReferencePlatform="Windows" ID="{1F2723FD-A338-48D9-B649-1C79B47F4EF2}"/>
 			</Platforms>
 			<LanguageList>
-				<Language Name="English(US)" ID="{8DA02ABC-33B4-4C38-90B7-851BECF87B62}"/>
 				<Language Name="External" ID="{23470D90-C57B-42E1-B82C-5EC255DAF65D}"/>
+				<Language Name="French(FR)" ID="{950F9EC9-61E7-4CB4-BE5A-C55D3D8AA96F}"/>
 				<Language Name="Mixed" ID="{C1FCF700-82F2-4CEB-8BC5-89EEA5EFC375}"/>
 				<Language Name="SFX" ID="{919C1C40-EBDE-43E0-B790-E8EC6A9F0C5F}"/>
 			</LanguageList>
 			<PropertyList>
+				<Property Name="DefaultLanguage" Type="string" Value="French(FR)"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
 					<ValueList>
 						<Value Platform="Windows"></Value>
@@ -29,7 +30,8 @@
 				</Property>
 				<Property Name="SoundBankGenerateEstimatedDuration" Type="bool" Value="True"/>
 				<Property Name="SoundBankGenerateHeaderFile" Type="bool" Value="True"/>
-				<Property Name="SoundBankHeaderFilePath" Type="string" Value="..\Assets\StreamingAssets\Audio"/>
+				<Property Name="SoundBankGenerateMaxAttenuationInfo" Type="bool" Value="True"/>
+				<Property Name="SoundBankHeaderFilePath" Type="string" Value="..\Assets\StreamingAssets\Audio\GeneratedSoundBanks"/>
 				<Property Name="SoundBankPaths" Type="string">
 					<ValueList>
 						<Value Platform="Windows">GeneratedSoundBanks\Windows\</Value>

@@ -1,6 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{9C05897B-0090-4DFC-9222-33E65E6EE3BD}" SchemaVersion="97">
 	<States>
-		<WorkUnit Name="Default Work Unit" ID="{9C05897B-0090-4DFC-9222-33E65E6EE3BD}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{9C05897B-0090-4DFC-9222-33E65E6EE3BD}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="DialogueIndex" ID="{72DA6CEC-8009-4E37-96F2-360FD4DF8E97}">
+					<ChildrenList>
+						<State Name="None" ID="{57629AB4-A841-433D-8F7F-FD1129EDF159}"/>
+						<State Name="Dialogue_0" ID="{64537896-B4D5-4D2D-9815-6519D31D00D2}"/>
+						<State Name="Dialogue_1" ID="{C68B06B0-7E75-4466-AB6D-A1E025B095D6}"/>
+						<State Name="Dialogue_2" ID="{0C4298FE-E994-48EE-9DB4-CA73B63DDF69}"/>
+						<State Name="Dialogue_3" ID="{C63F488B-AE3B-4C7B-A226-2845533652D4}"/>
+						<State Name="Dialogue_4" ID="{683F55F7-EA71-4813-9469-A23C167BD99A}"/>
+						<State Name="Dialogue_5" ID="{6A188695-2F92-4420-9A81-45C756E73B16}"/>
+						<State Name="Dialogue_6" ID="{BA8E2949-786A-41B1-8BBE-AC31F5266446}"/>
+						<State Name="Dialogue_7" ID="{5124F46A-16A5-4886-859D-2292362219D9}"/>
+						<State Name="Dialogue_8" ID="{CD56BFFB-F02F-42CB-B081-9A9A6B28A2AF}"/>
+						<State Name="Dialogue_9" ID="{337D07E9-DB98-4628-B65A-E0009157DF31}"/>
+						<State Name="Dialogue_10" ID="{EC4940FF-B808-4735-8560-21F911BDC713}"/>
+						<State Name="Dialogue_11" ID="{E95D3B97-B98A-4FD8-969A-7E81A1D2682E}"/>
+						<State Name="Dialogue_12" ID="{7B87DC3A-D72E-4B42-A15B-00CC69015142}"/>
+						<State Name="Dialogue_13" ID="{97B446D4-D50C-452C-B760-492E45EE4EE3}"/>
+						<State Name="Dialogue_14" ID="{FE6430AD-0786-4FBE-BB94-53EFD4F60AD9}"/>
+						<State Name="Dialogue_15" ID="{C3B336D9-D54C-4946-990B-714E419DFAE1}"/>
+						<State Name="Dialogue_16" ID="{B750ABE0-3922-4F88-87FF-1CEC47369D3F}"/>
+						<State Name="Dialogue_17" ID="{7A71E54F-92DB-431C-8B08-7F3C58657A6F}"/>
+						<State Name="Dialogue_18" ID="{56E5AFF1-D701-4899-BB25-71DD4E3A1A31}"/>
+						<State Name="Dialogue_19" ID="{2565D154-C666-48D1-A3E3-59C4C6EE3A8D}"/>
+						<State Name="Dialogue_20" ID="{48EAB9F2-D372-4035-895A-C9D1747C6A9B}"/>
+						<State Name="Dialogue_21" ID="{65435F79-3BF2-4C10-B913-7EAC8448F09C}"/>
+						<State Name="Dialogue_22" ID="{BB581A56-6960-4B90-95B3-263BE84BE618}"/>
+						<State Name="Dialogue_23" ID="{33B1ED42-7115-4969-ACF3-683D3DD3C756}"/>
+						<State Name="Dialogue_24" ID="{3E1B11B2-1DF9-448E-A285-38BB183F8835}"/>
+						<State Name="Dialogue_25" ID="{D4B81C41-2DD0-41EE-BAAE-16C1B959B293}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="MainMenuMusic" ID="{4BCC794B-6B3B-4F00-9A3E-6FA2F1D6FEB3}">
+					<ChildrenList>
+						<State Name="None" ID="{BB2B7B20-5372-4014-8487-85B7EAF0F235}"/>
+						<State Name="First" ID="{DD12F9B9-DD4E-475A-96C1-B43CE6B24A35}"/>
+						<State Name="Second" ID="{2B324864-50EB-47E3-9AA0-B313DAACCC9F}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Music_Progress" ID="{A86A414D-4E6C-4150-B47C-AC82805B1A1F}">
+					<ChildrenList>
+						<State Name="None" ID="{DADAEEA8-CA65-43A5-A656-97F9461ECBDE}"/>
+						<State Name="Intro" ID="{553C221E-C63A-426A-ACC5-56721BE47628}"/>
+						<State Name="Course" ID="{9EA4D197-6EAE-4DF0-A710-5DB951451DB6}"/>
+						<State Name="Recovery" ID="{7264602A-75BC-4C7D-98B6-C1AC2F2419B9}"/>
+						<State Name="Final" ID="{D89D6F18-00AD-4693-B6D7-7A1251D74D57}"/>
+						<State Name="PreFinal" ID="{69B5C871-376B-4EC2-9348-0ECE3C811B1E}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Ambient_Zone" ID="{617E9D48-157D-4415-AACE-A9DDCF817300}">
+					<ChildrenList>
+						<State Name="None" ID="{F4624C03-B9B6-4B6D-BF14-66D7F2093944}"/>
+						<State Name="Forest" ID="{FAA4E367-33ED-47EE-8355-7171FEB132AE}"/>
+						<State Name="Recovery" ID="{7B76E64E-D077-4024-9753-2F9CAC46D841}"/>
+						<State Name="Swamp" ID="{1CBE94DC-0206-4B2F-B46C-01BF1E922134}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</States>
 </WwiseDocument>

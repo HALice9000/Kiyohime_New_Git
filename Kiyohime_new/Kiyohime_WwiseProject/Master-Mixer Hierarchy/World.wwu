@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{1C0BC4EE-D715-4A4F-A141-1574614CD634}" SchemaVersion="97" RootDocumentID="{8ADC8F06-A94A-4491-9EB5-E4FEAC0837DC}">
+<WwiseDocument Type="WorkUnit" ID="{ACC26F30-2B3A-4245-A9E7-43B898896FD1}" SchemaVersion="97" RootDocumentID="{8ADC8F06-A94A-4491-9EB5-E4FEAC0837DC}">
 	<Busses>
-		<WorkUnit Name="World" ID="{1C0BC4EE-D715-4A4F-A141-1574614CD634}" OwnerID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" PersistMode="Nested">
+		<WorkUnit Name="WORLD" ID="{ACC26F30-2B3A-4245-A9E7-43B898896FD1}" OwnerID="{9AAE12A7-C259-4D8C-8FBA-13566B1A8616}" PersistMode="Nested">
 			<PropertyList>
-				<Property Name="Color" Type="int16" Value="4"/>
+				<Property Name="Color" Type="int16" Value="5"/>
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
 			<ChildrenList>
-				<WorkUnit Name="Ennemies" ID="{99E04252-E982-4479-BA87-00F90B8F4FAC}" PersistMode="Reference"/>
+				<Bus Name="WorldAmbient" ID="{CFE9940A-4B6A-4F41-B30A-980796834AF2}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Busses>

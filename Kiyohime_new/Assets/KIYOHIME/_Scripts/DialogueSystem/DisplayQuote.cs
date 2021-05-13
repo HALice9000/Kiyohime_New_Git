@@ -8,11 +8,14 @@ public class DisplayQuote : MonoBehaviour
     [SerializeField] private GameObject quote;
     [SerializeField] private float quoteTimeOnScreen = 3.0f;
 
+    [SerializeField] private int index = 20;
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Player")
         {
             StartCoroutine(QuoteDisplayEnum());
+            WWISETOOL.PlaySpecificDialogue(index);
         }
     }
 

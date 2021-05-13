@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 232b2bbd4d189ef42954f1d3aae30405, type: 3}
+  m_Name: 8C2C9584-3CAF-4877-A8C5-00806ADE314A
+  m_EditorClassIdentifier: 
+  objectName: SqueletteBreath_Start
+  id: 4175038752
+  guid: 8C2C9584-3CAF-4877-A8C5-00806ADE314A

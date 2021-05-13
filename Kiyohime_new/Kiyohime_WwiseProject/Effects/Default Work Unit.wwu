@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{99C72134-F11F-4A70-ACEA-AA6F10BD1D7F}" SchemaVersion="97">
 	<Effects>
-		<WorkUnit Name="Default Work Unit" ID="{99C72134-F11F-4A70-ACEA-AA6F10BD1D7F}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{99C72134-F11F-4A70-ACEA-AA6F10BD1D7F}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="New_Mastering_Suite" ID="{04E32EA8-A452-42F5-856F-1D35C833A81C}" PluginName="Mastering Suite" CompanyID="0" PluginID="186" PluginType="3">
+					<PropertyList>
+						<Property Name="paramBand4Frequency" Type="Real32" Value="5085.297"/>
+						<Property Name="paramBand4Gain" Type="Real32" Value="-0.3571429"/>
+					</PropertyList>
+				</Effect>
+			</ChildrenList>
+		</WorkUnit>
 	</Effects>
 </WwiseDocument>

@@ -9,6 +9,7 @@
 				<WorkUnit Name="Music" ID="{17599FDB-34F1-440F-BF68-247A2DBDDA5B}" PersistMode="Reference"/>
 				<WorkUnit Name="Menu" ID="{563B3BAB-B3BE-4D2F-97EA-F2583C7B3CEC}" PersistMode="Reference"/>
 				<WorkUnit Name="EXEMPLE" ID="{DFF44E01-66B9-4AE4-A968-5C52E1AAABD9}" PersistMode="Reference"/>
+				<WorkUnit Name="Dialogue" ID="{6AFC8332-E289-493C-9377-569DCF75AA58}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

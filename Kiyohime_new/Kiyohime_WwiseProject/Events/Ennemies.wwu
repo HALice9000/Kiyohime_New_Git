@@ -6,6 +6,73 @@
 				<Property Name="Color" Type="int16" Value="19"/>
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
+			<ChildrenList>
+				<Event Name="KappaStart" ID="{E3D36A0F-B515-4362-969F-832E86480DB7}">
+					<ChildrenList>
+						<Action Name="" ID="{8239B024-7CCD-4627-A8BA-F9F839DB2480}" ShortID="603367839">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MONSTRE" ID="{0309782F-14AD-4F3A-8853-8CC99AEB38DE}" WorkUnitID="{4685A0A2-4031-463E-BBD3-A6242DFA6835}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="KappaStop" ID="{0E9BB4BA-182C-4BF2-93AE-CE04E4B9F5BC}">
+					<ChildrenList>
+						<Action Name="" ID="{47DB283E-2166-4AA3-9C8E-9A5C1A826B7E}" ShortID="608750770">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="5"/>
+								<Property Name="FadeTime" Type="Real64" Value="3.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MONSTRE" ID="{0309782F-14AD-4F3A-8853-8CC99AEB38DE}" WorkUnitID="{4685A0A2-4031-463E-BBD3-A6242DFA6835}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SqueletteBreath_Start" ID="{8C2C9584-3CAF-4877-A8C5-00806ADE314A}">
+					<ChildrenList>
+						<Action Name="" ID="{AF86ED1B-7B35-4ECE-86AD-B39D19791706}" ShortID="853922591">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Breath" ID="{8703B941-8918-4D6F-B9E1-39944FFC7898}" WorkUnitID="{4685A0A2-4031-463E-BBD3-A6242DFA6835}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SqueletteBreath_Stop" ID="{ABE524A7-74D5-4C9B-B047-AC8F4DC0DD3B}">
+					<ChildrenList>
+						<Action Name="" ID="{BB283B69-0D4C-42AE-9EA5-1BD9D0B84CBB}" ShortID="992546281">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="5"/>
+								<Property Name="FadeTime" Type="Real64" Value="3"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Breath" ID="{8703B941-8918-4D6F-B9E1-39944FFC7898}" WorkUnitID="{4685A0A2-4031-463E-BBD3-A6242DFA6835}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Squelette_Scream" ID="{2575B800-7825-4955-981B-2B2937AA1362}">
+					<ChildrenList>
+						<Action Name="" ID="{48B391D9-63CB-4422-8C77-5FE5DCA0472C}" ShortID="129045324">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Squelette_cri" ID="{77444FAD-B55F-40CF-8E81-FA341CE47030}" WorkUnitID="{4685A0A2-4031-463E-BBD3-A6242DFA6835}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
 		</WorkUnit>
 	</Events>
 </WwiseDocument>

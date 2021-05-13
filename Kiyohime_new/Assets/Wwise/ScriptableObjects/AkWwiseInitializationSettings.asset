@@ -19,7 +19,7 @@ MonoBehaviour:
   InvalidReferencePlatforms: []
   UserSettings:
     m_BasePath: Audio\GeneratedSoundBanks
-    m_StartupLanguage: English(US)
+    m_StartupLanguage: French(FR)
     m_EngineLogging: 1
     m_MaximumNumberOfPositioningPaths: 255
     m_CommandQueueSize: 262144

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6AFC8332-E289-493C-9377-569DCF75AA58}" SchemaVersion="97" RootDocumentID="{48103764-05C7-4434-B71D-EB9039349635}">
+	<Events>
+		<WorkUnit Name="Dialogue" ID="{6AFC8332-E289-493C-9377-569DCF75AA58}" OwnerID="{48103764-05C7-4434-B71D-EB9039349635}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_Dialogue" ID="{590FD334-9760-4966-8FDA-4EE5130BFA4A}">
+					<ChildrenList>
+						<Action Name="" ID="{85B7C744-69D6-4003-84BB-95306570BE3B}" ShortID="402922851">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DialogueList" ID="{9F82B0E5-F783-48D6-B58A-B00291C83B58}" WorkUnitID="{029E79A4-FEC2-40AB-A50D-3CF6898CAD51}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

@@ -5,8 +5,8 @@
 			<ChildrenList>
 				<SoundBank Name="AllInOne" ID="{A4FFAEBF-2493-4FFD-8644-6578AFE9325F}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8ADC8F06-A94A-4491-9EB5-E4FEAC0837DC}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Default Work Unit" ID="{48103764-05C7-4434-B71D-EB9039349635}" WorkUnitID="{48103764-05C7-4434-B71D-EB9039349635}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Events" ID="{A69BF0FC-D84A-487C-ABDD-56F71CB2A126}" WorkUnitID="{A69BF0FC-D84A-487C-ABDD-56F71CB2A126}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Dynamic Dialogue" ID="{309AF5DE-031F-4CE0-9B9B-C0A536275343}" WorkUnitID="{309AF5DE-031F-4CE0-9B9B-C0A536275343}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

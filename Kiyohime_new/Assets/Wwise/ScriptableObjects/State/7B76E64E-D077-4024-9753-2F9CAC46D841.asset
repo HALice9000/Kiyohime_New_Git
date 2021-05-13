@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a3f33210431fb74b9fd1cf2286f5f19, type: 3}
+  m_Name: 7B76E64E-D077-4024-9753-2F9CAC46D841
+  m_EditorClassIdentifier: 
+  objectName: Recovery
+  id: 215593132
+  guid: 7B76E64E-D077-4024-9753-2F9CAC46D841
+  WwiseStateGroupReference: {fileID: 11400000, guid: 76c28e49437bef94cb875b5ecff472be,
+    type: 2}

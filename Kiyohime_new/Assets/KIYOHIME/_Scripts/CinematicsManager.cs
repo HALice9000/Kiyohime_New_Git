@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine.Timeline;
 using UnityEngine;
 using UnityEngine.Playables;
+using UnityEngine.SceneManagement;
 
 public class CinematicsManager : MonoBehaviour
 {
@@ -26,6 +27,7 @@ public class CinematicsManager : MonoBehaviour
 
     PlayableDirector playableDirector;
     TimelineAsset timelineAsset;
+    bool aIsPressed = false;
 
     // Start is called before the first frame update
     void Start()
@@ -37,7 +39,12 @@ public class CinematicsManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetButtonDown("A") && aIsPressed == false && SceneManager.GetActiveScene().buildIndex != 1)
+        {
+            aIsPressed = true;
+
+            ResumeCinematic();
+        }
     }
 
     public void ResumeCinematic()

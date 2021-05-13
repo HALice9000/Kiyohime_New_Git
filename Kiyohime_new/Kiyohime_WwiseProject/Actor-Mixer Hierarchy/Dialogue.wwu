@@ -1,0 +1,1008 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{029E79A4-FEC2-40AB-A50D-3CF6898CAD51}" SchemaVersion="97" RootDocumentID="{906D91A6-CEA5-4EF2-B8F9-63707DDB8D7C}">
+	<AudioObjects>
+		<WorkUnit Name="Dialogue" ID="{029E79A4-FEC2-40AB-A50D-3CF6898CAD51}" OwnerID="{906D91A6-CEA5-4EF2-B8F9-63707DDB8D7C}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="13"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<SwitchContainer Name="DialogueList" ID="{9F82B0E5-F783-48D6-B58A-B00291C83B58}" ShortID="123301139">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="13"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+						<Property Name="UserAuxSendVolume0" Type="Real64">
+							<ValueList>
+								<Value>-16</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>10</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{269A2FB5-28BD-463C-8903-2746215579E4}"/>
+						</Reference>
+						<Reference Name="DefaultSwitchOrState">
+							<ObjectRef Name="Dialogue_0" ID="{64537896-B4D5-4D2D-9815-6519D31D00D2}" WorkUnitID="{9C05897B-0090-4DFC-9222-33E65E6EE3BD}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Voices" ID="{EDBF5A4B-1C04-4F22-A7FF-990A0E1120C4}" WorkUnitID="{45A99F03-612C-4EC8-8466-BEB0E0DE022C}"/>
+						</Reference>
+						<Reference Name="SwitchGroupOrStateGroup">
+							<ObjectRef Name="DialogueIndex" ID="{72DA6CEC-8009-4E37-96F2-360FD4DF8E97}" WorkUnitID="{9C05897B-0090-4DFC-9222-33E65E6EE3BD}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="0_Anchin" ID="{B5EADC60-AFC2-4BAE-910B-271E6F72D295}" ShortID="117825383">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+								<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{269A2FB5-28BD-463C-8903-2746215579E4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8ADC8F06-A94A-4491-9EB5-E4FEAC0837DC}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="Small_Reverb" ID="{E0E0E762-FA34-4FD8-8A1E-2D0B6637D920}" WorkUnitID="{45A99F03-612C-4EC8-8466-BEB0E0DE022C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="0_Anchin" ID="{9B5A447F-ED0F-4CF8-B40F-5BBEEEC88B42}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.342195540308748"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.756432246998284"/>
+									</PropertyList>
+									<Language>French(FR)</Language>
+									<AudioFile>0_Anchin.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="448951950"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="0_Anchin" ID="{9B5A447F-ED0F-4CF8-B40F-5BBEEEC88B42}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="1_Kiyohime" ID="{E43B6B7B-4360-448F-9968-4D91B16C646F}" ShortID="430247554">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+								<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{269A2FB5-28BD-463C-8903-2746215579E4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8ADC8F06-A94A-4491-9EB5-E4FEAC0837DC}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="Small_Reverb" ID="{E0E0E762-FA34-4FD8-8A1E-2D0B6637D920}" WorkUnitID="{45A99F03-612C-4EC8-8466-BEB0E0DE022C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="1_Kiyohime" ID="{6A95524A-D3DC-4E00-A025-45C421FEF878}">
+									<Language>French(FR)</Language>
+									<AudioFile>1_Kiyohime.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="612770892"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="1_Kiyohime" ID="{6A95524A-D3DC-4E00-A025-45C421FEF878}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="2_Anchin" ID="{8DF08E7C-DE32-4AF4-8E84-A42B38CF59AC}" ShortID="403127258">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+								<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{269A2FB5-28BD-463C-8903-2746215579E4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8ADC8F06-A94A-4491-9EB5-E4FEAC0837DC}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="Small_Reverb" ID="{E0E0E762-FA34-4FD8-8A1E-2D0B6637D920}" WorkUnitID="{45A99F03-612C-4EC8-8466-BEB0E0DE022C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="2_Anchin" ID="{A0438C48-2CD3-48B6-BCAC-ED5692919F8F}">
+									<Language>French(FR)</Language>
+									<AudioFile>2_Anchin.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="289860324"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="2_Anchin" ID="{A0438C48-2CD3-48B6-BCAC-ED5692919F8F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="3_Kiyohime" ID="{CB329B6D-F581-48D3-8497-E9F3240FBF44}" ShortID="610602099">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+								<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{269A2FB5-28BD-463C-8903-2746215579E4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8ADC8F06-A94A-4491-9EB5-E4FEAC0837DC}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="Small_Reverb" ID="{E0E0E762-FA34-4FD8-8A1E-2D0B6637D920}" WorkUnitID="{45A99F03-612C-4EC8-8466-BEB0E0DE022C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="3_Kiyohime" ID="{875FEDC4-76F7-45CD-A1DA-FA5832BB8AC2}">
+									<Language>French(FR)</Language>
+									<AudioFile>3_Kiyohime.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="823275909"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="3_Kiyohime" ID="{875FEDC4-76F7-45CD-A1DA-FA5832BB8AC2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="4_Anchin" ID="{75CD74AE-BD72-425B-8B10-FBD00A8E60A0}" ShortID="31637842">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+								<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{269A2FB5-28BD-463C-8903-2746215579E4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8ADC8F06-A94A-4491-9EB5-E4FEAC0837DC}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="Small_Reverb" ID="{E0E0E762-FA34-4FD8-8A1E-2D0B6637D920}" WorkUnitID="{45A99F03-612C-4EC8-8466-BEB0E0DE022C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="4_Anchin" ID="{B19B1BED-39CC-4E8E-8438-21A54DB0997A}">
+									<Language>French(FR)</Language>
+									<AudioFile>4_Anchin.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="187691058"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="4_Anchin" ID="{B19B1BED-39CC-4E8E-8438-21A54DB0997A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="5_Kiyohime" ID="{7FC4CAAE-149D-4DB1-BC33-8BC0AD491665}" ShortID="103842626">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+								<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{269A2FB5-28BD-463C-8903-2746215579E4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8ADC8F06-A94A-4491-9EB5-E4FEAC0837DC}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="Small_Reverb" ID="{E0E0E762-FA34-4FD8-8A1E-2D0B6637D920}" WorkUnitID="{45A99F03-612C-4EC8-8466-BEB0E0DE022C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="5_Kiyohime" ID="{46293F3E-9067-4B79-9888-BDFA9F41274D}">
+									<Language>French(FR)</Language>
+									<AudioFile>5_Kiyohime.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1051255044"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="5_Kiyohime" ID="{46293F3E-9067-4B79-9888-BDFA9F41274D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="6_Yamata" ID="{786F73B8-9502-4856-B5A8-D7B06253FE47}" ShortID="908309426">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+								<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{269A2FB5-28BD-463C-8903-2746215579E4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8ADC8F06-A94A-4491-9EB5-E4FEAC0837DC}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="Small_Reverb" ID="{E0E0E762-FA34-4FD8-8A1E-2D0B6637D920}" WorkUnitID="{45A99F03-612C-4EC8-8466-BEB0E0DE022C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="6_Yamata" ID="{C556E23C-43B8-4190-976D-0F7FC559233B}">
+									<Language>French(FR)</Language>
+									<AudioFile>6_Yamata.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="185447323"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="6_Yamata" ID="{C556E23C-43B8-4190-976D-0F7FC559233B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="7_Kiyohime" ID="{9058BF04-7863-4994-AEC0-FAC78C8CFAA2}" ShortID="34359964">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+								<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{269A2FB5-28BD-463C-8903-2746215579E4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8ADC8F06-A94A-4491-9EB5-E4FEAC0837DC}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="Small_Reverb" ID="{E0E0E762-FA34-4FD8-8A1E-2D0B6637D920}" WorkUnitID="{45A99F03-612C-4EC8-8466-BEB0E0DE022C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="7_Kiyohime" ID="{A2B769FD-3568-47C2-A8ED-0A8B6CAB5B82}">
+									<Language>French(FR)</Language>
+									<AudioFile>7_Kiyohime.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="818907329"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="7_Kiyohime" ID="{A2B769FD-3568-47C2-A8ED-0A8B6CAB5B82}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="8_Suiko" ID="{8110B19E-22E5-4563-A5C4-6151A4A093D8}" ShortID="956834676">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+								<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{269A2FB5-28BD-463C-8903-2746215579E4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8ADC8F06-A94A-4491-9EB5-E4FEAC0837DC}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="Huge_Reverb" ID="{4D59BDBC-FE62-438D-B42D-AF45551DF477}" WorkUnitID="{45A99F03-612C-4EC8-8466-BEB0E0DE022C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="8_Suiko" ID="{9A0338A6-B99A-4684-8E59-F190E1B75E20}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.457525388657464"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.352948156964329"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="7.35962268040435"/>
+									</PropertyList>
+									<Language>French(FR)</Language>
+									<AudioFile>8_Suiko.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="405737581"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="8_Suiko" ID="{9A0338A6-B99A-4684-8E59-F190E1B75E20}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="9_Yamata" ID="{86693E6D-2459-46FF-8E60-EC6AAED82FA2}" ShortID="295221959">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+								<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{269A2FB5-28BD-463C-8903-2746215579E4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8ADC8F06-A94A-4491-9EB5-E4FEAC0837DC}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="Small_Reverb" ID="{E0E0E762-FA34-4FD8-8A1E-2D0B6637D920}" WorkUnitID="{45A99F03-612C-4EC8-8466-BEB0E0DE022C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="9_Yamata" ID="{6314AEE4-0B2D-47F4-9DFA-3181CEC36002}">
+									<Language>French(FR)</Language>
+									<AudioFile>9_Yamata.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="580452391"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="9_Yamata" ID="{6314AEE4-0B2D-47F4-9DFA-3181CEC36002}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="10_Kiyohime" ID="{79A0DB60-33BE-4E8E-BFAE-E33FD91003A1}" ShortID="772399125">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+								<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{269A2FB5-28BD-463C-8903-2746215579E4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8ADC8F06-A94A-4491-9EB5-E4FEAC0837DC}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="Small_Reverb" ID="{E0E0E762-FA34-4FD8-8A1E-2D0B6637D920}" WorkUnitID="{45A99F03-612C-4EC8-8466-BEB0E0DE022C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="10_Kiyohime" ID="{5312371D-22B5-45D7-A011-94E01B6DE160}">
+									<Language>French(FR)</Language>
+									<AudioFile>10_Kiyohime.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="558703150"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="10_Kiyohime" ID="{5312371D-22B5-45D7-A011-94E01B6DE160}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="11_Suiko" ID="{F5C169BC-3D08-4B3F-9332-5989329D267D}" ShortID="290743311">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+								<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{269A2FB5-28BD-463C-8903-2746215579E4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8ADC8F06-A94A-4491-9EB5-E4FEAC0837DC}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="Huge_Reverb" ID="{4D59BDBC-FE62-438D-B42D-AF45551DF477}" WorkUnitID="{45A99F03-612C-4EC8-8466-BEB0E0DE022C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="11_Suiko" ID="{0E8A263F-FFF8-4729-8E88-840D442E9232}">
+									<Language>French(FR)</Language>
+									<AudioFile>11_Suiko.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="794120393"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="11_Suiko" ID="{0E8A263F-FFF8-4729-8E88-840D442E9232}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="12_Kiyohime" ID="{6CF641AE-20A0-479E-8E01-7E646DEDD78A}" ShortID="47249179">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+								<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{269A2FB5-28BD-463C-8903-2746215579E4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8ADC8F06-A94A-4491-9EB5-E4FEAC0837DC}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="Small_Reverb" ID="{E0E0E762-FA34-4FD8-8A1E-2D0B6637D920}" WorkUnitID="{45A99F03-612C-4EC8-8466-BEB0E0DE022C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="12_Kiyohime" ID="{A65C2F1A-2EE0-4E7A-9AAB-F6A3C690DB29}">
+									<Language>French(FR)</Language>
+									<AudioFile>12_Kiyohime.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="964516265"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="12_Kiyohime" ID="{A65C2F1A-2EE0-4E7A-9AAB-F6A3C690DB29}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="13_Suiko" ID="{B7D7E86A-0345-4A78-A267-7420DA1F5A29}" ShortID="709561056">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+								<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{269A2FB5-28BD-463C-8903-2746215579E4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8ADC8F06-A94A-4491-9EB5-E4FEAC0837DC}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="Huge_Reverb" ID="{4D59BDBC-FE62-438D-B42D-AF45551DF477}" WorkUnitID="{45A99F03-612C-4EC8-8466-BEB0E0DE022C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="13_Suiko" ID="{9A4DA0ED-6AD2-400C-BE94-493549927CE3}">
+									<Language>French(FR)</Language>
+									<AudioFile>13_Suiko.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="44929542"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="13_Suiko" ID="{9A4DA0ED-6AD2-400C-BE94-493549927CE3}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="14_Anchin" ID="{95776063-9734-43E2-A2B0-E63774E2F383}" ShortID="854314855">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+								<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{269A2FB5-28BD-463C-8903-2746215579E4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8ADC8F06-A94A-4491-9EB5-E4FEAC0837DC}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="Small_Reverb" ID="{E0E0E762-FA34-4FD8-8A1E-2D0B6637D920}" WorkUnitID="{45A99F03-612C-4EC8-8466-BEB0E0DE022C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="14_Anchin" ID="{09F353CF-F9A7-4560-A668-D3205167F462}">
+									<Language>French(FR)</Language>
+									<AudioFile>14_Anchin.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="309616631"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="14_Anchin" ID="{09F353CF-F9A7-4560-A668-D3205167F462}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="15_Kiyohime" ID="{FB30C438-3026-45DB-979A-B11647817E21}" ShortID="1034290956">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+								<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{269A2FB5-28BD-463C-8903-2746215579E4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8ADC8F06-A94A-4491-9EB5-E4FEAC0837DC}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="Small_Reverb" ID="{E0E0E762-FA34-4FD8-8A1E-2D0B6637D920}" WorkUnitID="{45A99F03-612C-4EC8-8466-BEB0E0DE022C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="15_Kiyohime" ID="{2F02CD89-3203-4808-A96C-03C9400C93B9}">
+									<Language>French(FR)</Language>
+									<AudioFile>15_Kiyohime.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="99230480"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="15_Kiyohime" ID="{2F02CD89-3203-4808-A96C-03C9400C93B9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="16_Anchin" ID="{F32B5F85-8840-4DC2-BE21-C5D2A5015261}" ShortID="389970924">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+								<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{269A2FB5-28BD-463C-8903-2746215579E4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8ADC8F06-A94A-4491-9EB5-E4FEAC0837DC}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="Small_Reverb" ID="{E0E0E762-FA34-4FD8-8A1E-2D0B6637D920}" WorkUnitID="{45A99F03-612C-4EC8-8466-BEB0E0DE022C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="16_Anchin" ID="{5FDA3491-C96A-4ADE-A52D-0B8F97F490E1}">
+									<Language>French(FR)</Language>
+									<AudioFile>16_Anchin.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="239060636"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="16_Anchin" ID="{5FDA3491-C96A-4ADE-A52D-0B8F97F490E1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="17_Anchin" ID="{D038FDD7-BD6C-4411-B53B-EDDF5BA118D2}" ShortID="582700674">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+								<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{269A2FB5-28BD-463C-8903-2746215579E4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8ADC8F06-A94A-4491-9EB5-E4FEAC0837DC}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="Small_Reverb" ID="{E0E0E762-FA34-4FD8-8A1E-2D0B6637D920}" WorkUnitID="{45A99F03-612C-4EC8-8466-BEB0E0DE022C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="17_Anchin" ID="{7B0D9E69-4C24-49BE-9833-D8075B1DE550}">
+									<Language>French(FR)</Language>
+									<AudioFile>17_Anchin.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="596704489"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="17_Anchin" ID="{7B0D9E69-4C24-49BE-9833-D8075B1DE550}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="18_Kiyohime" ID="{9E18548F-3EEA-41DA-BC0A-EC6A61DE6BC3}" ShortID="592327342">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+								<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{269A2FB5-28BD-463C-8903-2746215579E4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8ADC8F06-A94A-4491-9EB5-E4FEAC0837DC}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="Small_Reverb" ID="{E0E0E762-FA34-4FD8-8A1E-2D0B6637D920}" WorkUnitID="{45A99F03-612C-4EC8-8466-BEB0E0DE022C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="18_Kiyohime" ID="{37E095C4-6095-4EE6-893C-9118A496A9BB}">
+									<Language>French(FR)</Language>
+									<AudioFile>18_Kiyohime.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1030359906"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="18_Kiyohime" ID="{37E095C4-6095-4EE6-893C-9118A496A9BB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="19_Yamata" ID="{A43BB503-0DFA-40D2-8C7F-2EF21A9D8866}" ShortID="892954224">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+								<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{269A2FB5-28BD-463C-8903-2746215579E4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8ADC8F06-A94A-4491-9EB5-E4FEAC0837DC}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="Small_Reverb" ID="{E0E0E762-FA34-4FD8-8A1E-2D0B6637D920}" WorkUnitID="{45A99F03-612C-4EC8-8466-BEB0E0DE022C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="19_Yamata" ID="{B491F383-4171-44A5-9758-6286EB5F927E}">
+									<Language>French(FR)</Language>
+									<AudioFile>19_Yamata.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="438086071"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="19_Yamata" ID="{B491F383-4171-44A5-9758-6286EB5F927E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="20_Kiyohime" ID="{9A1C71EE-040B-4D41-9F6C-2D505AE8D0FB}" ShortID="29294495">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+								<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{269A2FB5-28BD-463C-8903-2746215579E4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8ADC8F06-A94A-4491-9EB5-E4FEAC0837DC}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="Small_Reverb" ID="{E0E0E762-FA34-4FD8-8A1E-2D0B6637D920}" WorkUnitID="{45A99F03-612C-4EC8-8466-BEB0E0DE022C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="20_Kiyohime" ID="{5E229537-AC06-47F3-ACB2-2FD4419D299E}">
+									<Language>French(FR)</Language>
+									<AudioFile>20_Kiyohime.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="298787669"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="20_Kiyohime" ID="{5E229537-AC06-47F3-ACB2-2FD4419D299E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="21_Kiyohime" ID="{0FE77266-5E90-4AD4-A08C-5325B06CEB37}" ShortID="856436066">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+								<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{269A2FB5-28BD-463C-8903-2746215579E4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8ADC8F06-A94A-4491-9EB5-E4FEAC0837DC}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="Small_Reverb" ID="{E0E0E762-FA34-4FD8-8A1E-2D0B6637D920}" WorkUnitID="{45A99F03-612C-4EC8-8466-BEB0E0DE022C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="21_Kiyohime" ID="{CD717FB3-6C52-4D28-844D-0E4F49BA7CC9}">
+									<Language>French(FR)</Language>
+									<AudioFile>21_Kiyohime.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="432439174"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="21_Kiyohime" ID="{CD717FB3-6C52-4D28-844D-0E4F49BA7CC9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<GroupingInfo>
+						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="19_Yamata" ID="{A43BB503-0DFA-40D2-8C7F-2EF21A9D8866}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="7_Kiyohime" ID="{9058BF04-7863-4994-AEC0-FAC78C8CFAA2}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="15_Kiyohime" ID="{FB30C438-3026-45DB-979A-B11647817E21}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="10_Kiyohime" ID="{79A0DB60-33BE-4E8E-BFAE-E33FD91003A1}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="0_Anchin" ID="{B5EADC60-AFC2-4BAE-910B-271E6F72D295}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="14_Anchin" ID="{95776063-9734-43E2-A2B0-E63774E2F383}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="21_Kiyohime" ID="{0FE77266-5E90-4AD4-A08C-5325B06CEB37}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="13_Suiko" ID="{B7D7E86A-0345-4A78-A267-7420DA1F5A29}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="9_Yamata" ID="{86693E6D-2459-46FF-8E60-EC6AAED82FA2}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="3_Kiyohime" ID="{CB329B6D-F581-48D3-8497-E9F3240FBF44}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="1_Kiyohime" ID="{E43B6B7B-4360-448F-9968-4D91B16C646F}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="2_Anchin" ID="{8DF08E7C-DE32-4AF4-8E84-A42B38CF59AC}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="16_Anchin" ID="{F32B5F85-8840-4DC2-BE21-C5D2A5015261}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="18_Kiyohime" ID="{9E18548F-3EEA-41DA-BC0A-EC6A61DE6BC3}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="8_Suiko" ID="{8110B19E-22E5-4563-A5C4-6151A4A093D8}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="12_Kiyohime" ID="{6CF641AE-20A0-479E-8E01-7E646DEDD78A}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="4_Anchin" ID="{75CD74AE-BD72-425B-8B10-FBD00A8E60A0}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="5_Kiyohime" ID="{7FC4CAAE-149D-4DB1-BC33-8BC0AD491665}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="6_Yamata" ID="{786F73B8-9502-4856-B5A8-D7B06253FE47}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="11_Suiko" ID="{F5C169BC-3D08-4B3F-9332-5989329D267D}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="17_Anchin" ID="{D038FDD7-BD6C-4411-B53B-EDDF5BA118D2}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="20_Kiyohime" ID="{9A1C71EE-040B-4D41-9F6C-2D505AE8D0FB}"/>
+							</GroupingBehavior>
+						</GroupingBehaviorList>
+						<GroupingList>
+							<Grouping>
+								<SwitchRef Name="Dialogue_12" ID="{7B87DC3A-D72E-4B42-A15B-00CC69015142}"/>
+								<ItemList>
+									<ItemRef Name="12_Kiyohime" ID="{6CF641AE-20A0-479E-8E01-7E646DEDD78A}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Dialogue_6" ID="{BA8E2949-786A-41B1-8BBE-AC31F5266446}"/>
+								<ItemList>
+									<ItemRef Name="6_Yamata" ID="{786F73B8-9502-4856-B5A8-D7B06253FE47}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Dialogue_17" ID="{7A71E54F-92DB-431C-8B08-7F3C58657A6F}"/>
+								<ItemList>
+									<ItemRef Name="17_Anchin" ID="{D038FDD7-BD6C-4411-B53B-EDDF5BA118D2}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Dialogue_19" ID="{2565D154-C666-48D1-A3E3-59C4C6EE3A8D}"/>
+								<ItemList>
+									<ItemRef Name="19_Yamata" ID="{A43BB503-0DFA-40D2-8C7F-2EF21A9D8866}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Dialogue_7" ID="{5124F46A-16A5-4886-859D-2292362219D9}"/>
+								<ItemList>
+									<ItemRef Name="7_Kiyohime" ID="{9058BF04-7863-4994-AEC0-FAC78C8CFAA2}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Dialogue_21" ID="{65435F79-3BF2-4C10-B913-7EAC8448F09C}"/>
+								<ItemList>
+									<ItemRef Name="21_Kiyohime" ID="{0FE77266-5E90-4AD4-A08C-5325B06CEB37}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Dialogue_3" ID="{C63F488B-AE3B-4C7B-A226-2845533652D4}"/>
+								<ItemList>
+									<ItemRef Name="3_Kiyohime" ID="{CB329B6D-F581-48D3-8497-E9F3240FBF44}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Dialogue_5" ID="{6A188695-2F92-4420-9A81-45C756E73B16}"/>
+								<ItemList>
+									<ItemRef Name="5_Kiyohime" ID="{7FC4CAAE-149D-4DB1-BC33-8BC0AD491665}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Dialogue_0" ID="{64537896-B4D5-4D2D-9815-6519D31D00D2}"/>
+								<ItemList>
+									<ItemRef Name="0_Anchin" ID="{B5EADC60-AFC2-4BAE-910B-271E6F72D295}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Dialogue_11" ID="{E95D3B97-B98A-4FD8-969A-7E81A1D2682E}"/>
+								<ItemList>
+									<ItemRef Name="11_Suiko" ID="{F5C169BC-3D08-4B3F-9332-5989329D267D}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Dialogue_14" ID="{FE6430AD-0786-4FBE-BB94-53EFD4F60AD9}"/>
+								<ItemList>
+									<ItemRef Name="14_Anchin" ID="{95776063-9734-43E2-A2B0-E63774E2F383}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Dialogue_1" ID="{C68B06B0-7E75-4466-AB6D-A1E025B095D6}"/>
+								<ItemList>
+									<ItemRef Name="1_Kiyohime" ID="{E43B6B7B-4360-448F-9968-4D91B16C646F}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Dialogue_13" ID="{97B446D4-D50C-452C-B760-492E45EE4EE3}"/>
+								<ItemList>
+									<ItemRef Name="13_Suiko" ID="{B7D7E86A-0345-4A78-A267-7420DA1F5A29}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Dialogue_15" ID="{C3B336D9-D54C-4946-990B-714E419DFAE1}"/>
+								<ItemList>
+									<ItemRef Name="15_Kiyohime" ID="{FB30C438-3026-45DB-979A-B11647817E21}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Dialogue_16" ID="{B750ABE0-3922-4F88-87FF-1CEC47369D3F}"/>
+								<ItemList>
+									<ItemRef Name="16_Anchin" ID="{F32B5F85-8840-4DC2-BE21-C5D2A5015261}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Dialogue_9" ID="{337D07E9-DB98-4628-B65A-E0009157DF31}"/>
+								<ItemList>
+									<ItemRef Name="9_Yamata" ID="{86693E6D-2459-46FF-8E60-EC6AAED82FA2}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Dialogue_18" ID="{56E5AFF1-D701-4899-BB25-71DD4E3A1A31}"/>
+								<ItemList>
+									<ItemRef Name="18_Kiyohime" ID="{9E18548F-3EEA-41DA-BC0A-EC6A61DE6BC3}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Dialogue_20" ID="{48EAB9F2-D372-4035-895A-C9D1747C6A9B}"/>
+								<ItemList>
+									<ItemRef Name="20_Kiyohime" ID="{9A1C71EE-040B-4D41-9F6C-2D505AE8D0FB}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Dialogue_4" ID="{683F55F7-EA71-4813-9469-A23C167BD99A}"/>
+								<ItemList>
+									<ItemRef Name="4_Anchin" ID="{75CD74AE-BD72-425B-8B10-FBD00A8E60A0}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Dialogue_8" ID="{CD56BFFB-F02F-42CB-B081-9A9A6B28A2AF}"/>
+								<ItemList>
+									<ItemRef Name="8_Suiko" ID="{8110B19E-22E5-4563-A5C4-6151A4A093D8}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Dialogue_2" ID="{0C4298FE-E994-48EE-9DB4-CA73B63DDF69}"/>
+								<ItemList>
+									<ItemRef Name="2_Anchin" ID="{8DF08E7C-DE32-4AF4-8E84-A42B38CF59AC}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Dialogue_10" ID="{EC4940FF-B808-4735-8560-21F911BDC713}"/>
+								<ItemList>
+									<ItemRef Name="10_Kiyohime" ID="{79A0DB60-33BE-4E8E-BFAE-E33FD91003A1}"/>
+								</ItemList>
+							</Grouping>
+						</GroupingList>
+					</GroupingInfo>
+				</SwitchContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

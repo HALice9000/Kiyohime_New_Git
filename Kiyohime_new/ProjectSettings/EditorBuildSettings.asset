@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/KIYOHIME/_Scenes/empty_scene.unity
+    guid: 2bf146760649aaa4f89eba9171dfdcc2
+  - enabled: 1
     path: Assets/KIYOHIME/_Scenes/Main_Menu.unity
     guid: 359ad51e60177594d92da4e55ba4515b
   - enabled: 1

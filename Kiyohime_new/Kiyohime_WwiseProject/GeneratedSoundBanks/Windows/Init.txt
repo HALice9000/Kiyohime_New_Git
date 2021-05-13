@@ -1,13 +1,74 @@
-Game Parameter	ID	Name			Wwise Object Path	Notes
-	485103962	EXEMPLE_CurrLifeInfo			\Default Work Unit\EXEMPLE_CurrLifeInfo	
+State Group	ID	Name			Wwise Object Path	Notes
+	371629313	DialogueIndex			\Default Work Unit\DialogueIndex	
+	1991862712	MainMenuMusic			\Default Work Unit\MainMenuMusic	
+	3147241156	Ambient_Zone			\Default Work Unit\Ambient_Zone	
+	4150154280	Music_Progress			\Default Work Unit\Music_Progress	
+
+State	ID	Name	State Group			Notes
+	748895195	None	DialogueIndex			
+	1194040152	Dialogue_24	DialogueIndex			
+	1194040153	Dialogue_25	DialogueIndex			
+	1194040156	Dialogue_20	DialogueIndex			
+	1194040157	Dialogue_21	DialogueIndex			
+	1194040158	Dialogue_22	DialogueIndex			
+	1194040159	Dialogue_23	DialogueIndex			
+	1244373008	Dialogue_15	DialogueIndex			
+	1244373009	Dialogue_14	DialogueIndex			
+	1244373010	Dialogue_17	DialogueIndex			
+	1244373011	Dialogue_16	DialogueIndex			
+	1244373012	Dialogue_11	DialogueIndex			
+	1244373013	Dialogue_10	DialogueIndex			
+	1244373014	Dialogue_13	DialogueIndex			
+	1244373015	Dialogue_12	DialogueIndex			
+	1244373020	Dialogue_19	DialogueIndex			
+	1244373021	Dialogue_18	DialogueIndex			
+	3196045920	Dialogue_6	DialogueIndex			
+	3196045921	Dialogue_7	DialogueIndex			
+	3196045922	Dialogue_4	DialogueIndex			
+	3196045923	Dialogue_5	DialogueIndex			
+	3196045924	Dialogue_2	DialogueIndex			
+	3196045925	Dialogue_3	DialogueIndex			
+	3196045926	Dialogue_0	DialogueIndex			
+	3196045927	Dialogue_1	DialogueIndex			
+	3196045934	Dialogue_8	DialogueIndex			
+	3196045935	Dialogue_9	DialogueIndex			
+	748895195	None	MainMenuMusic			
+	998496889	First	MainMenuMusic			
+	3476314365	Second	MainMenuMusic			
+	215593132	Recovery	Ambient_Zone			
+	491961918	Forest	Ambient_Zone			
+	748895195	None	Ambient_Zone			
+	2907906111	Swamp	Ambient_Zone			
+	164666302	Course	Music_Progress			
+	215593132	Recovery	Music_Progress			
+	565529991	Final	Music_Progress			
+	748895195	None	Music_Progress			
+	1125500713	Intro	Music_Progress			
+	2747357872	PreFinal	Music_Progress			
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
-	1069431850	Player			\Default Work Unit\Master Audio Bus\Player\Player	
+	1069431850	Player			\Default Work Unit\Master Audio Bus\MASTER\MASTER SFX\Player\Player	
+	1078167454	MASTER SFX			\Default Work Unit\Master Audio Bus\MASTER\MASTER SFX	
+	1921121713	MASTER VOICE			\Default Work Unit\Master Audio Bus\MASTER\MASTER VOICE	
+	2318586166	MASTER MUSIC			\Default Work Unit\Master Audio Bus\MASTER\MASTER MUSIC	
+	3261268017	WorldAmbient			\Default Work Unit\Master Audio Bus\MASTER\MASTER SFX\WORLD\WorldAmbient	
+	3313685232	Voices			\Default Work Unit\Master Audio Bus\MASTER\MASTER VOICE\Voices\Voices	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3991942870	Music			\Default Work Unit\Master Audio Bus\MASTER\MASTER MUSIC\Music\Music	
 
 Auxiliary Bus	ID	Name			Wwise Object Path	Notes
-	914128518	AnotherReverb			\Default Work Unit\Master Audio Bus\AnotherReverb	
-	1591283508	DefaultReverb			\Default Work Unit\Master Audio Bus\DefaultReverb	
+	914128518	AnotherReverb			\Default Work Unit\Master Audio Bus\MASTER\MASTER SFX\AnotherReverb	
+	1591283508	DefaultReverb			\Default Work Unit\Master Audio Bus\MASTER\MASTER SFX\DefaultReverb	
+	3727266879	Huge_Reverb			\Default Work Unit\Master Audio Bus\MASTER\MASTER VOICE\Voices\Voices\Huge_Reverb	
+	4052205305	Small_Reverb			\Default Work Unit\Master Audio Bus\MASTER\MASTER VOICE\Voices\Voices\Small_Reverb	
+
+Effect plug-ins	ID	Name	Type				Notes
+	157017556	Wwise_Compressor_(Custom)	Wwise Compressor			
+	626007997	Wwise_Peak_Limiter_(Custom)	Wwise Peak Limiter			
+	1459522457	Brick_Wall_Minus_1dB_Peak_Fast_Release	Wwise Peak Limiter			
+	2171939413	Dialog_Leveler_Hard	Wwise Compressor			
+	2849147824	Medium	Wwise RoomVerb			
+	2949243095	Hall_Small_Bright	Wwise RoomVerb			
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			

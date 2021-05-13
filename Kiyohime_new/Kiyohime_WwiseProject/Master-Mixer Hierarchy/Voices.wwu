@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{45A99F03-612C-4EC8-8466-BEB0E0DE022C}" SchemaVersion="97" RootDocumentID="{8ADC8F06-A94A-4491-9EB5-E4FEAC0837DC}">
+	<Busses>
+		<WorkUnit Name="Voices" ID="{45A99F03-612C-4EC8-8466-BEB0E0DE022C}" OwnerID="{2857EFD2-4623-42A7-9324-B9E3277C65E4}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="13"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Bus Name="Voices" ID="{EDBF5A4B-1C04-4F22-A7FF-990A0E1120C4}">
+					<ReferenceList>
+						<Reference Name="Effect0" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+							<ObjectRef Name="Dialog_Leveler_Hard" ID="{865FB36F-8717-4D30-AD05-14E56375CD40}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+						</Reference>
+						<Reference Name="Effect1">
+							<Custom>
+								<Effect Name="Wwise_Peak_Limiter_(Custom)" ID="{782198A5-F1AF-437D-A0E3-A9BDFCB01874}" ShortID="626007997" PluginName="Wwise Peak Limiter" CompanyID="0" PluginID="110" PluginType="3"/>
+							</Custom>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AuxBus Name="Huge_Reverb" ID="{4D59BDBC-FE62-438D-B42D-AF45551DF477}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<ValueList>
+										<Value>-12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+									<ObjectRef Name="Medium" ID="{AEB3F175-958B-45F2-A4C2-3FBD4F456568}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+							</ReferenceList>
+						</AuxBus>
+						<AuxBus Name="Small_Reverb" ID="{E0E0E762-FA34-4FD8-8A1E-2D0B6637D920}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<ValueList>
+										<Value>-12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+									<ObjectRef Name="Hall_Small_Bright" ID="{D8AD1955-D2BA-4C88-A806-E2D8AB47A90B}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+							</ReferenceList>
+						</AuxBus>
+					</ChildrenList>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

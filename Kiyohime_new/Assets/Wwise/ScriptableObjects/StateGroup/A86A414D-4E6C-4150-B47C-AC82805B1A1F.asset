@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44da9f9e7be4bd84184366fb2d7d3b31, type: 3}
+  m_Name: A86A414D-4E6C-4150-B47C-AC82805B1A1F
+  m_EditorClassIdentifier: 
+  objectName: Music_Progress
+  id: 4150154280
+  guid: A86A414D-4E6C-4150-B47C-AC82805B1A1F

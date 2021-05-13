@@ -77,6 +77,8 @@ public class s_dialogueSystem : MonoBehaviour
     {
         string sentence = sentences.Dequeue();
         _speakerText.text = sentence;
+
+        WWISETOOL.PlayNextDialogue();
     }
 
     public void StartDialogue(s_dialogue dialogue)

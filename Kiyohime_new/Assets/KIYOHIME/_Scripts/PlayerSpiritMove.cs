@@ -44,4 +44,22 @@ public class PlayerSpiritMove : MonoBehaviour
         _player.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeRotation;
         spirited = false;
     }
+
+
+
+
+    public AK.Wwise.Event openSound, closeSound, stopkappa;
+
+    public void OpenSound()
+    {
+        openSound.Post(gameObject);
+    }
+    public void CloseSound()
+    {
+        stopkappa.Post(KappaCrewSource);
+        closeSound.Post(gameObject);
+    }
+    public GameObject KappaCrewSource;
 }
+
+

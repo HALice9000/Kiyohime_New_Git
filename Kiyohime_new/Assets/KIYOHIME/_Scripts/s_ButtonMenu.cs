@@ -5,10 +5,12 @@ using UnityEngine;
 
 public class s_ButtonMenu : MonoBehaviour
 {
-    public void LaunchGame()
+    public void ButtonLaunchGame(int index)
     {
-        SceneManager.LoadScene(1);
+        
+        SceneManager.LoadScene(index);
     }
+
     public void QuitGame()
     {
         Application.Quit();
