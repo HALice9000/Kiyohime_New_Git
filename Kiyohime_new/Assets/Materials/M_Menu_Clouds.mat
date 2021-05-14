@@ -36,17 +36,17 @@ Material:
     - _PaternPower: 2.33
     - _PaternSpeedStep: 0.13
     - _StarsSpeedRatio: 5.25
-    - _StepOutter: 2
+    - _StepOutter: 1.24
     - _TextureSat: 0.55
     - _TextureStrength: 1.4
-    - _VoroBorderScale: 0.1
+    - _VoroBorderScale: -0.14
     - _VoroPaternScale: 1
-    - _WorldImpactance: 0.96
+    - _WorldImpactance: 1.22
     - __dirty: 0
-    - _smoothStep: 2.02
+    - _smoothStep: 10
     m_Colors:
     - _Color0: {r: 1, g: 1, b: 1, a: 1}
-    - _Color1: {r: 0.7490196, g: 0.7490196, b: 0.7490196, a: 1}
+    - _Color1: {r: 1, g: 1, b: 1, a: 1}
     - _ColorSteps: {r: 3.14, g: 2.21, b: 0, a: 0}
     - _OpacityFromPatern: {r: 1.55, g: 2.19, b: 0, a: 0}
     - _StepInner: {r: 0.98, g: 1.08, b: 0, a: 0}
