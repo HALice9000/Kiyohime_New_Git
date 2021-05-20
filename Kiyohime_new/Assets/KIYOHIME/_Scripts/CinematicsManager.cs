@@ -39,7 +39,7 @@ public class CinematicsManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetButtonDown("A") && aIsPressed == false && SceneManager.GetActiveScene().buildIndex != 1)
+        if (Input.GetButtonDown("A") && aIsPressed == false && SceneManager.GetActiveScene().buildIndex == 1)
         {
             aIsPressed = true;
 

@@ -5,6 +5,8 @@ using UnityEngine;
 public class PlayerSpiritMove : MonoBehaviour
 {
     public GameObject _player;
+    public GameObject[] visuals;
+
     public GameObject _Spirit;
     bool spirited = false;
 
@@ -29,7 +31,11 @@ public class PlayerSpiritMove : MonoBehaviour
         _player.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.None;
         _player.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeRotation;
 
-        _player.GetComponent<SpriteRenderer>().enabled = false;
+        foreach (GameObject go in visuals)
+        {
+            go.GetComponent<SpriteRenderer>().enabled = false;
+        }
+
         _player.GetComponent<CapsuleCollider2D>().enabled = false;
         spirited = true;
     }
@@ -37,7 +43,12 @@ public class PlayerSpiritMove : MonoBehaviour
     public void MakeLiving()
     {
         _Spirit.SetActive(false);
-        _player.GetComponent<SpriteRenderer>().enabled = true;
+
+        foreach (GameObject go in visuals)
+        {
+            go.GetComponent<SpriteRenderer>().enabled = true;
+        }
+
         _player.GetComponent<CapsuleCollider2D>().enabled = true;
 
         _player.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.None;

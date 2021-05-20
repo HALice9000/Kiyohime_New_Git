@@ -343,15 +343,15 @@ MonoBehaviour:
   Interact:
     key: 101
     controllerButton: 4
-    m_Enabled: 1
+    m_Enabled: 0
   MeleeAttack:
     key: 107
     controllerButton: 3
-    m_Enabled: 1
+    m_Enabled: 0
   RangedAttack:
     key: 111
     controllerButton: 10
-    m_Enabled: 1
+    m_Enabled: 0
   Jump:
     key: 32
     controllerButton: 1
@@ -381,6 +381,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inCinematic: 0
   spriteRenderer: {fileID: 212611162554739646}
+  visuals: {fileID: 0}
   damageable: {fileID: 114774311958850474}
   meleeDamager: {fileID: 114460243114916098}
   facingLeftBulletSpawnPoint: {fileID: 4456631231676054}
@@ -393,8 +394,8 @@ MonoBehaviour:
   pushingSpeedProportion: 0.5
   airborneAccelProportion: 1
   airborneDecelProportion: 0.5
-  gravity: 38
-  jumpSpeed: 18
+  gravity: 30
+  jumpSpeed: 20
   jumpAbortSpeedReduction: 100
   hurtJumpAngle: 45
   hurtJumpSpeed: 8

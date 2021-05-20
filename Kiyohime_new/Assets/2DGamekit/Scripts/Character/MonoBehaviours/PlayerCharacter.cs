@@ -20,6 +20,8 @@ namespace Gamekit2D
         }
 
         public SpriteRenderer spriteRenderer;
+        public GameObject visuals;
+        float defaultScaleX = 0.0f;
         public Damageable damageable;
         public Damager meleeDamager;
         public Transform facingLeftBulletSpawnPoint;
@@ -127,6 +129,15 @@ namespace Gamekit2D
             m_InventoryController = GetComponent<InventoryController>();
 
             m_CurrentBulletSpawnPoint = spriteOriginallyFacesLeft ? facingLeftBulletSpawnPoint : facingRightBulletSpawnPoint;
+
+            for (int i = 0; i < transform.childCount; i++)
+            {
+                if (transform.GetChild(i).name == "Anim_kiyohime_puppet")
+                {
+                    visuals = transform.GetChild(i).gameObject;
+                    defaultScaleX = visuals.transform.localScale.x;
+                }
+            }
         }
 
         void Start()
@@ -412,11 +423,25 @@ namespace Gamekit2D
             {
                 spriteRenderer.flipX = !spriteOriginallyFacesLeft;
                 m_CurrentBulletSpawnPoint = facingLeftBulletSpawnPoint;
+
+                visuals.transform.localScale = new Vector3
+                (
+                    -defaultScaleX,
+                    visuals.transform.localScale.y,
+                    visuals.transform.localScale.z
+                );
             }
             else if (faceRight)
             {
                 spriteRenderer.flipX = spriteOriginallyFacesLeft;
                 m_CurrentBulletSpawnPoint = facingRightBulletSpawnPoint;
+
+                visuals.transform.localScale = new Vector3
+                (
+                    defaultScaleX,
+                    visuals.transform.localScale.y,
+                    visuals.transform.localScale.z
+                );
             }
         }
 
