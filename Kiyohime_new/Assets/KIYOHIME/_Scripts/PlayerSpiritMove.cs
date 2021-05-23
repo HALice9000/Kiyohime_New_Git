@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerSpiritMove : MonoBehaviour
 {
+    public GameObject orb;
     public GameObject _player;
     public GameObject[] visuals;
 
@@ -28,6 +29,8 @@ public class PlayerSpiritMove : MonoBehaviour
     public void MakeSpirit()
     {
         _Spirit.SetActive(true);
+        orb.SetActive(false);
+
         _player.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.None;
         _player.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeRotation;
 
@@ -43,6 +46,7 @@ public class PlayerSpiritMove : MonoBehaviour
     public void MakeLiving()
     {
         _Spirit.SetActive(false);
+        orb.SetActive(true);
 
         foreach (GameObject go in visuals)
         {
