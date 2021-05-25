@@ -26,7 +26,7 @@
 				<AuxBus Id="4052205305" Name="Small_Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\MASTER\MASTER VOICE\Voices\Voices\Small_Reverb"/>
 			</IncludedAuxBusses>
 		</SoundBank>
-		<SoundBank Id="2858921253" Language="French(FR)" Hash="1082108739">
+		<SoundBank Id="2858921253" Language="French(FR)" Hash="431743146">
 			<ObjectPath>\SoundBanks\Default Work Unit\AllInOne</ObjectPath>
 			<ShortName>AllInOne</ShortName>
 			<Path>French(FR)\AllInOne.bnk</Path>
