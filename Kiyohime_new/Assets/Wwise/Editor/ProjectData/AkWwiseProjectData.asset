@@ -30,7 +30,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 068fdc8a4aa991449eb5e4feac0837dc
     GuidInternal: 
-    m_lastTime: -8585810208338296566
+    m_lastTime: -8585628924188377289
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -52,7 +52,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit\Master Audio Bus\MASTER
     guid: 3594cc7860f35c43bbb98b46b317cba4
     GuidInternal: 
-    m_lastTime: -8585812984989402160
+    m_lastTime: -8585628924188377289
     List:
     - name: AnotherReverb
       guid: aff40ecd38aeba4abcd715b184120561
@@ -138,7 +138,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit\Master Audio Bus\MASTER\MASTER SFX\Menu
     guid: 237aa5e2e364b14d852fc6ee8a02d074
     GuidInternal: 
-    m_lastTime: -8585812985570557612
+    m_lastTime: -8585628924188367316
     List: []
   - PhysicalPath: Master-Mixer Hierarchy\Music.wwu
     PathAndIcons:
@@ -155,7 +155,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit\Master Audio Bus\MASTER\MASTER MUSIC\Music
     guid: eac210b9cfcd8d42a08c34cc746b25ee
     GuidInternal: 
-    m_lastTime: -8585812985570487801
+    m_lastTime: -8585628924188367316
     List:
     - name: Music
       guid: 3a60cc3566303a44ac79af8e8f688500
@@ -189,7 +189,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit\Master Audio Bus\MASTER\MASTER SFX\Player
     guid: 4373a3dc63fa0d4db575478e30d4da8b
     GuidInternal: 
-    m_lastTime: -8585812984989551756
+    m_lastTime: -8585628924188357345
     List:
     - name: Player
       guid: f44f8b9bb2821341b30913a1af82dad6
@@ -223,7 +223,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit\Master Audio Bus\MASTER\MASTER VOICE\Voices
     guid: 039fa9452c61c84e8466beb0e0de022c
     GuidInternal: 
-    m_lastTime: -8585812985570418268
+    m_lastTime: -8585628924188357345
     List:
     - name: Huge_Reverb
       guid: bcbd594d62fe8d43b42daf45551df477
@@ -280,7 +280,7 @@ MonoBehaviour:
       - ElementName: Voices
         ObjectType: 2
       Path: Default Work Unit\Master Audio Bus\MASTER\MASTER VOICE\Voices\Voices
-  - PhysicalPath: Master-Mixer Hierarchy\WORLD.wwu
+  - PhysicalPath: Master-Mixer Hierarchy\World.wwu
     PathAndIcons:
     - ElementName: Default Work Unit
       ObjectType: 12
@@ -290,12 +290,12 @@ MonoBehaviour:
       ObjectType: 12
     - ElementName: MASTER SFX
       ObjectType: 2
-    - ElementName: WORLD
+    - ElementName: World
       ObjectType: 12
-    ParentPath: Default Work Unit\Master Audio Bus\MASTER\MASTER SFX\WORLD
+    ParentPath: Default Work Unit\Master Audio Bus\MASTER\MASTER SFX\World
     guid: 306fc2ac3a2b4542a9e743b898896fd1
     GuidInternal: 
-    m_lastTime: -8585812961878345148
+    m_lastTime: -8585628924188347370
     List:
     - name: WorldAmbient
       guid: 0a94e9cf6a4b414fb30a980796834af2
@@ -309,11 +309,11 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: MASTER SFX
         ObjectType: 2
-      - ElementName: WORLD
+      - ElementName: World
         ObjectType: 12
       - ElementName: WorldAmbient
         ObjectType: 2
-      Path: Default Work Unit\Master Audio Bus\MASTER\MASTER SFX\WORLD\WorldAmbient
+      Path: Default Work Unit\Master Audio Bus\MASTER\MASTER SFX\World\WorldAmbient
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     PathAndIcons:
@@ -322,7 +322,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: c032954cf0119a43ab4d5050c303e10b
     GuidInternal: 
-    m_lastTime: -8585816446007542585
+    m_lastTime: -8585628924119543632
     List:
     - name: AllInOne
       guid: bfaeffa49324fd4f86446578afe9325f
@@ -341,7 +341,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 64371048c7053444b71deb9039349635
     GuidInternal: 
-    m_lastTime: -8585824229915497717
+    m_lastTime: -8585628924188536864
     List: []
   - PhysicalPath: Events\Dialogue.wwu
     PathAndIcons:
@@ -352,7 +352,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit\Dialogue
     guid: 3283fc6a89e23c499377569dcf75aa58
     GuidInternal: 
-    m_lastTime: -8585824190922628331
+    m_lastTime: -8585628924188536864
     List:
     - name: Play_Dialogue
       guid: 34d30f59609766498fda4ee5130bfa4a
@@ -377,7 +377,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit\Ennemies
     guid: 692aa69ad7d75645822eee1b24ff139a
     GuidInternal: 
-    m_lastTime: -8585807009679512035
+    m_lastTime: -8585628924188526889
     List:
     - name: KappaStart
       guid: 0f6ad3e315b56243969f832e86480db7
@@ -458,7 +458,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit\EXEMPLE
     guid: 014ef4dfb966e44aa9685c52e1aaabd9
     GuidInternal: 
-    m_lastTime: -8585862037950621716
+    m_lastTime: -8585861901619652821
     List:
     - name: respirationOff
       guid: f8cfaffbe5518244b9b7487c240936f7
@@ -497,7 +497,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit\Menu
     guid: ab3b3b56beb32f4d97eaf2583c7b3cec
     GuidInternal: 
-    m_lastTime: -8585862091974775808
+    m_lastTime: -8585861901619642844
     List: []
   - PhysicalPath: Events\Music.wwu
     PathAndIcons:
@@ -508,7 +508,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit\Music
     guid: db9f5917f1340f44bf68247a2dbdda5b
     GuidInternal: 
-    m_lastTime: -8585807009679442342
+    m_lastTime: -8585628924188516917
     List:
     - name: MainMenu_Play
       guid: 978dabc2e33371488c2ba67b1d892af9
@@ -575,7 +575,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit\Player
     guid: 33312c8227bf0548a6b192ec9dcad7cf
     GuidInternal: 
-    m_lastTime: -8585862026465658800
+    m_lastTime: -8585861901619642844
     List:
     - name: Player_Footstep
       guid: 59832c478f2e804b8130d6c732255791
@@ -628,7 +628,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit\World
     guid: b4eb7543aeacc84fa74a4ff69c791300
     GuidInternal: 
-    m_lastTime: -8585812961878434640
+    m_lastTime: -8585628924188506944
     List:
     - name: Door_Close
       guid: 4e85196012f2624eb3435c11df2360f4
@@ -750,7 +750,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: c33429142aaea447a775aa8fc1f46d6a
     GuidInternal: 
-    m_lastTime: -8585824223225279613
+    m_lastTime: -8585628924188506944
     List: []
   - PhysicalPath: Game Parameters\Menu.wwu
     PathAndIcons:
@@ -761,7 +761,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit\Menu
     guid: a5ffecbf75776240bea01a3a9f784947
     GuidInternal: 
-    m_lastTime: -8585862091974775808
+    m_lastTime: -8585861901619622908
     List:
     - name: Volume_Music
       guid: a16710046b58224f8310a5927c83a05f
@@ -804,7 +804,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 7b89059c9000fc4d922233e65e6ee3bd
     GuidInternal: 
-    m_lastTime: -8585810209488061435
+    m_lastTime: -8585628924119523684
     List:
     - name: Ambient_Zone
       guid: 489d7e617d151544aacea9ddcf817300
@@ -1117,7 +1117,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit\Player
     guid: 7c9a8bfd8c5a60428738c9e796412b47
     GuidInternal: 
-    m_lastTime: -8585862091974775808
+    m_lastTime: -8585861901614591204
     List:
     - name: Player_FootSwitch
       guid: 78e5dbd77e4ac449a4b6f5a55abcd552
