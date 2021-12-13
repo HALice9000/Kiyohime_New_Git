@@ -80,24 +80,24 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - BaseEmber: 0.133
+    - BaseEmber: 0.093
     - GlowBaseFrequency: 2.35
     - GlowBaseFrequency159: 1.1
     - GlowBaseFrequency89: 4.08
     - GlowColorIntensity: 0.56
     - GlowDuration: 20
     - GlowEmissionMultiplier: 12.6
-    - GlowOverride: 1.07
+    - GlowOverride: 5.43
     - R2: 1
     - RangedFloatNode156: 0.88
     - RangedFloatNode192: 10
     - RangedFloatNode95: 1
     - SuperBurn: 1
-    - _AlbedoMix: 0.356
+    - _AlbedoMix: 0.839
     - _BaseDirtMud: 1
-    - _BurnOffset: 0.22
-    - _BurnTilling: 0.179
-    - _CharcoalMix: 0.713
+    - _BurnOffset: 2.17
+    - _BurnTilling: 0.252
+    - _CharcoalMix: 0.552
     - _CharcoalNormalTile: 2
     - _Distribution: 1
     - _GlowBaseFrequency76: 1.137
@@ -109,7 +109,7 @@ Material:
     - _TestBaseIntensityVariation78: 0
     - _Thickness: 0.5
     - _UnderwaterInfluence: 0
-    - __dirty: 1
+    - __dirty: 0
     - temp3: 1
     m_Colors:
     - EmberColorTint: {r: 0.966, g: 0.10625186, b: 0.004325263, a: 1}

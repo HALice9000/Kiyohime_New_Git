@@ -47,7 +47,7 @@ Material:
     - _WarterFallSpeed2: 0.3
     - _WarterFallSpeed3: 0.25
     - _WaveOndulatingSpeed: 2
-    - __dirty: 0
+    - __dirty: 1
     - _lerpvertex: 0.03
     - _transparency: 0.27
     m_Colors:

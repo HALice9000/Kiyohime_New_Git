@@ -8,11 +8,11 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: DissolveBurn
-  m_Shader: {fileID: 4800000, guid: 94f20be2bc537ca40a2d1a87c19fe6d9, type: 3}
+  m_Shader: {fileID: 4800000, guid: c9f00da80c3719e489366aab1ba3d8d1, type: 3}
   m_ShaderKeywords: ETC1_EXTERNAL_ALPHA _EMISSION
   m_LightmapFlags: 1
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 1
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
@@ -47,12 +47,20 @@ Material:
         m_Texture: {fileID: 2800000, guid: e28dc97a9541e3642a48c0e3886688c5, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Distorsion_map:
+        m_Texture: {fileID: 2800000, guid: ff78ce98408b55f438187b2e8c9e1a34, type: 3}
+        m_Scale: {x: 2.2, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _EmissionMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mask:
+        m_Texture: {fileID: 2800000, guid: 1a6cd31145b1f6c459b5da3794506d0f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -77,11 +85,16 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _BumpScale: 1
-    - _Cutoff: 0.5
+    - _Burn: 0.805
+    - _Cutoff: 0
     - _DetailNormalMapScale: 1
     - _DisolveAmount: 0.451
     - _DissolveAmount: 0.43
+    - _Dissolve_amount: 0.504
+    - _Distorsion_amount: 1
     - _DstBlend: 0
+    - _Edge_thickness: 0
+    - _Float0: 0.144
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
@@ -96,6 +109,16 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     - __dirty: 0
+    - _heat_wave: 0.02
+    - _scrol_speed: 0.28
+    - _wiggle_amount: 0.0001
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Edge_color: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _TextureColoration: {r: 1, g: 1, b: 1, a: 1}
+    - _Tint: {r: 1, g: 1, b: 1, a: 1}
+    - _hot: {r: 1, g: 0.8069525, b: 0.002124689, a: 1}
+    - _noise_scale: {r: 10, g: 10, b: 0, a: 0}
+    - _tiling_tex: {r: 1, g: 1, b: 0, a: 0}
+    - _warm: {r: 0.9559735, g: 0.33245158, b: 0, a: 1}

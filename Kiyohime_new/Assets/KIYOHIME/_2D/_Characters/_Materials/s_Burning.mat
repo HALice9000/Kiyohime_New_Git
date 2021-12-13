@@ -11,7 +11,7 @@ Material:
   m_Shader: {fileID: 4800000, guid: c9f00da80c3719e489366aab1ba3d8d1, type: 3}
   m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
   m_LightmapFlags: 0
-  m_EnableInstancingVariants: 0
+  m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
@@ -77,7 +77,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _BumpScale: 1
-    - _Burn: 0
+    - _Burn: 0.45
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _Distorsion_amount: 1
@@ -97,11 +97,12 @@ Material:
     - _ZWrite: 1
     - __dirty: 0
     - _dissolve_amount: 0.66
-    - _heat_wave: 0
+    - _heat_wave: 1
     - _scrol_speed: 0.161
     - _wiggle_amount: 0.001
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _TextureColoration: {r: 1, g: 1, b: 1, a: 1}
     - _hot: {r: 1, g: 0.9333204, b: 0, a: 0}
     - _warm: {r: 1, g: 0.5426355, b: 0, a: 0}
