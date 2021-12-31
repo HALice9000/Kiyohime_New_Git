@@ -13,14 +13,14 @@ Material:
   m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
+  m_CustomRenderQueue: 3020
   stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
     - _TextureSample0:
-        m_Texture: {fileID: 2800000, guid: 00a83a025bf364843b4af0ab2d213142, type: 3}
+        m_Texture: {fileID: 2800000, guid: 49ac690fea838704cbd8967be5fafe34, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _texcoord:
@@ -28,18 +28,19 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _BURN: 1
+    - _BURN: 0.43
     - _Border: 0.015
-    - _BurnMiddle: 0.2
-    - _ColorPower: 0
+    - _BurnMiddle: 0.215
+    - _ColorPower: 1
     - _Float0: 1
     - _SpeedAngle: 1
     - __dirty: 0
+    - _lightPow: 0
     - _noisescale: 1
     - _voroangle: 0
     - _voroscale: 2.24
     m_Colors:
-    - _DissolveCol: {r: 2, g: 0.15021956, b: 0, a: 0}
-    - _DissolveCol2: {r: 2, g: 0.36803085, b: 0, a: 0}
-    - _TillingOffsetBurnPoint: {r: 1, g: 0, b: -0.5, a: 0}
+    - _DissolveCol: {r: 1.4980392, g: 0.11764706, b: 0, a: 0}
+    - _DissolveCol2: {r: 1.4980392, g: 0.28235295, b: 0, a: 0}
+    - _TillingOffsetBurnPoint: {r: 1, g: 1, b: -0.5, a: 0}
     - _debug: {r: 1.37, g: 1.82, b: 0, a: 0}
