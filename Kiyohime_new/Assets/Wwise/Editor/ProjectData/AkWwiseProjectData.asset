@@ -280,7 +280,7 @@ MonoBehaviour:
       - ElementName: Voices
         ObjectType: 2
       Path: Default Work Unit\Master Audio Bus\MASTER\MASTER VOICE\Voices\Voices
-  - PhysicalPath: Master-Mixer Hierarchy\WORLD.wwu
+  - PhysicalPath: Master-Mixer Hierarchy\World.wwu
     PathAndIcons:
     - ElementName: Default Work Unit
       ObjectType: 12
@@ -290,12 +290,12 @@ MonoBehaviour:
       ObjectType: 12
     - ElementName: MASTER SFX
       ObjectType: 2
-    - ElementName: WORLD
+    - ElementName: World
       ObjectType: 12
-    ParentPath: Default Work Unit\Master Audio Bus\MASTER\MASTER SFX\WORLD
+    ParentPath: Default Work Unit\Master Audio Bus\MASTER\MASTER SFX\World
     guid: 306fc2ac3a2b4542a9e743b898896fd1
     GuidInternal: 
-    m_lastTime: -8585812961878345148
+    m_lastTime: -8585628924188347370
     List:
     - name: WorldAmbient
       guid: 0a94e9cf6a4b414fb30a980796834af2
@@ -309,11 +309,11 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: MASTER SFX
         ObjectType: 2
-      - ElementName: WORLD
+      - ElementName: World
         ObjectType: 12
       - ElementName: WorldAmbient
         ObjectType: 2
-      Path: Default Work Unit\Master Audio Bus\MASTER\MASTER SFX\WORLD\WorldAmbient
+      Path: Default Work Unit\Master Audio Bus\MASTER\MASTER SFX\World\WorldAmbient
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     PathAndIcons:

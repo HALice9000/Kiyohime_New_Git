@@ -11,9 +11,9 @@ Material:
   m_Shader: {fileID: 4800000, guid: 6ffda081add2e9b44b0bf0a38feb74e4, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 0
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 5000
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 1
+  m_CustomRenderQueue: 3020
   stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
@@ -28,19 +28,21 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _BURN: 0.27
+    - _BURN: 1.5
     - _Border: 0.015
     - _BurnMiddle: 0.215
     - _ColorPower: 1
     - _Float0: 1
     - _SpeedAngle: 1
     - __dirty: 0
-    - _lightPow: 0.03
+    - _lightPow: 14
     - _noisescale: 1
+    - _spec: 80
     - _voroangle: 0
     - _voroscale: 2.24
     m_Colors:
     - _DissolveCol: {r: 1.4980392, g: 0.11764706, b: 0, a: 0}
     - _DissolveCol2: {r: 1.4980392, g: 0.28235295, b: 0, a: 0}
     - _TillingOffsetBurnPoint: {r: 1, g: 1, b: -0.5, a: 0}
+    - _Vector0: {r: 0.7, g: 1.18, b: 3.01, a: 0}
     - _debug: {r: 0, g: 1, b: 0, a: 0}
